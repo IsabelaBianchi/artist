@@ -2,51 +2,59 @@ import Head from "next/head";
 import NavBar from "../components/NavBar";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
-const main_tittle = "Augusto Baschera"
+
+
+const main_tittle = " Augusto Baschera"
 const about_text = " Augusto Baschera é um guitarrista dos relevantes nomes da nova geração da música brasileira, que propõe um novo enredo para o instrumento e a composição. Da tradição ao moderno, busca um equilíbrio de luz e sombra que convida o ouvinte a contemplar a paisagem densa e viver o presente através da improvisação. Sua música é intensa e não dá espaço para a indiferença"
+const project_one_tittle = "tanananan"
+const project_one_description = "tanananan"
+
 export default function Home() {
+
     return (
+        <>
+            <body id="page-top">
 
-        <body id="page-top">
-            <div className="container-fluid bg-dark">
-                <Head>
-                    <title>{main_tittle}</title>
-                    <meta name="description" content="descrition about this page" />
-                    <link rel="icon" type="image/png" sizes="32x32" href="/AB.png" />
-                </Head>
-                <NavBar />
+                <div className="container-fluid bg-dark">
 
-            </div>
+                    <Head>
+                        <title>{main_tittle}</title>
+                        <meta name="description" content="descrition about this page" />
+                        <link rel="icon" type="image/png" sizes="32x32" href="/AB.png" />
+                    </Head>
+                    <NavBar />
 
-            <header className="masthead">
-                <div className="container px-4 px-lg-5 pt-lg-6 d-flex h-100 align-items-center justify-content-center">
-                    <div className="d-flex justify-content-center">
-                        <div className="text-center">
-                            <h1 className="mx-auto my-0 text-uppercase">{main_tittle}</h1>                          
+                </div>
+
+                <header className="masthead">
+                    <div className="container px-4 px-lg-5 pt-lg-6 d-flex h-100 align-items-center justify-content-center">
+                        <div className="d-flex justify-content-center">
+                            <div className="text-center">
+                                <h1 className="mx-auto my-0 text-uppercase">{main_tittle}</h1>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </header>
+                </header>
 
-            <section className="about-section text-center" id="about">
-                <div className="container px-4 px-lg-5">
-                    <div className="row gx-4 gx-lg-5 justify-content-center">
-                        <div className="col-lg-8">
-                            <p className="text-white-50">
-                                {about_text}   
-                            </p>
+                <section className="about-section text-center" id="about">
+                    <div className="container px-4 px-lg-5">
+                        <div className="row gx-4 gx-lg-5 justify-content-center">
+                            <div className="col-lg-8">
+                                <p className="text-white-50">
+                                    {about_text}
+                                </p>
+                            </div>
                         </div>
+                        {/* <img className="img-fluid" src="/augusto_baschera_13.png" alt="Jazz Guitarrist Augusto Baschera" /> */}
                     </div>
-                    <img className="img-fluid" src="/urso.jpg" alt="..." />
-                </div>
-            </section>
+                </section>
 
 
-            <section className="projects-section bg-dark" id="projects">
-                <div className="container px-4 px-lg-5">
-
+                <section className="projects-section bg-dark" id="projects">
+                    <div className="container px-4 px-lg-5">
+                        {/* 
                     <div className="row gx-0 mb-4 mb-lg-5 align-items-center">
                         <div className="col-xl-8 col-lg-7"><img className="img-fluid mb-3 mb-lg-0" src="/urso.jpg" alt="..." /></div>
                         <div className="col-xl-4 col-lg-5">
@@ -55,74 +63,84 @@ export default function Home() {
                                 <p className="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div className="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                        <div className="col-lg-6"><img className="img-fluid" src="/urso.jpg" alt="..." /></div>
-                        <div className="col-lg-6">
-                            <div className="bg-black text-center h-100 project">
-                                <div className="d-flex h-100">
-                                    <div className="project-text w-100 my-auto text-center text-lg-left">
-                                        <h4 className="text-white">Misty</h4>
-                                        <p className="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                                        <hr className="d-none d-lg-block mb-0 ms-0" />
+                        <div className="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                            <div className="col-lg-6"><img className="img-fluid" src="/grey_city.jpg" alt="Grey City" /></div>
+                            <div className="col-lg-6">
+                                <div className="bg-black text-center h-100 project">
+                                    <div className="d-flex h-100">
+                                        <div className="project-text w-100 my-auto text-center text-lg-left">
+                                            <h4 className="text-white">{project_one_tittle}</h4>
+                                            <p className="mb-0 text-white-50">{project_one_description}</p>
+                                            <hr className="d-none d-lg-block mb-0 ms-0" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="row gx-0 justify-content-center">
-                        <div className="col-lg-6"><img className="img-fluid" src="/urso.jpg" alt="..." /></div>
-                        <div className="col-lg-6 order-lg-first">
-                            <div className="bg-black text-center h-100 project">
-                                <div className="d-flex h-100">
-                                    <div className="project-text w-100 my-auto text-center text-lg-right">
-                                        <h4 className="text-white">Mountains</h4>
-                                        <p className="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                                        <hr className="d-none d-lg-block mb-0 me-0" />
+                        <div className="row gx-0 justify-content-center">
+                            <div className="col-lg-6"><img className="img-fluid" src="/palavra_de_fantoche.jpg" alt="Palavra de Fantoche" /></div>
+                            <div className="col-lg-6 order-lg-first">
+                                <div className="bg-black text-center h-100 project">
+                                    <div className="d-flex h-100">
+                                        <div className="project-text w-100 my-auto text-center text-lg-right">
+                                            <h4 className="text-white">Mountains</h4>
+                                            <p className="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                                            <hr className="d-none d-lg-block mb-0 me-0" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
+
+                        <div className="text-center my-3">
+                            <a className="btn btn-primary" href="#about">All Projects</a>
 
 
-
-            <section className="contact-section bg-black" id="signup">
-                <div className="container px-4 px-lg-5">
-                    <div className="row gx-4 gx-lg-5">
-
-                        <div className="col-md-4 mb-3 mb-md-0">
-                            <div className="card py-4 h-100">
-                                <div className="card-body text-center">
-                                    <i className="fas fa-envelope text-primary mb-2"></i>
-                                    <h4 className="text-uppercase m-0">Email</h4>
-                                    <hr className="my-4 mx-auto" />
-                                    <div className="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
-                                </div>
-                            </div>
                         </div>
 
                     </div>
-                    <div className="social d-flex justify-content-center">
-
-                        <a className="mx-2" href="https://www.youtube.com/channel/UCO-RAD7pnuGJDXODein96cQ"><FontAwesomeIcon icon={faYoutube} /></a>
-                        <a className="mx-2" href="https://www.instagram.com/augustobaschera/"><FontAwesomeIcon icon={faInstagram} /></a>
-                        <a className="mx-2" href="https://www.facebook.com/augusto.baschera"><FontAwesomeIcon icon={faFacebook} /></a>
+                </section>
 
 
+
+                <section className="contact-section bg-black" id="signup">
+                    <div className="container px-4 px-lg-5">
+                        <div className="row gx-4 gx-lg-5">
+
+                            <div className="col-md-4 mb-3 mb-md-0">
+                                <div className="card py-4 h-100">
+                                    <div className="card-body text-center">
+                                        <i className="fas fa-envelope text-primary mb-2"></i>
+                                        <h4 className="text-uppercase m-0">Email</h4>
+                                        <hr className="my-4 mx-auto" />
+                                        <div className="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="social d-flex justify-content-center">
+
+                            <a className="mx-2" href="https://www.youtube.com/channel/UCO-RAD7pnuGJDXODein96cQ"><FontAwesomeIcon icon={faYoutube} /></a>
+                            <a className="mx-2" href="https://www.instagram.com/augustobaschera/"><FontAwesomeIcon icon={faInstagram} /></a>
+                            <a className="mx-2" href="https://www.facebook.com/augusto.baschera"><FontAwesomeIcon icon={faFacebook} /></a>
+
+
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
 
 
-            <footer className="footer bg-black small text-center text-white-50"><div className="container px-4 px-lg-5">Copyright &copy; Your Website 2021</div></footer>
+                <footer className="footer bg-black small text-center text-white-50"><div className="container px-4 px-lg-5">Copyright &copy; Your Website 2021</div></footer>
 
-        </body>
+            </body>
+        </>
+
+
 
     );
 }
