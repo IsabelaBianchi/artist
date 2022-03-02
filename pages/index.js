@@ -11,6 +11,9 @@ const about_text = " Augusto Baschera é um guitarrista dos relevantes nomes da 
 const project_one_tittle = "tanananan"
 const project_one_description = "tanananan"
 
+const contact_email = "augustobaschera@hotmail.com"
+const contact_number = "+351918307750"
+
 export default function Home() {
 
     return (
@@ -96,7 +99,7 @@ export default function Home() {
                         </div>
 
                         <div className="text-center my-3">
-                            <a className="btn btn-primary" href="#about">All Projects</a>
+                            <a className="btn btn-primary" href="/all_projects">All Projects</a>
 
 
                         </div>
@@ -110,18 +113,31 @@ export default function Home() {
                     <div className="container px-4 px-lg-5">
                         <div className="row gx-4 gx-lg-5">
 
-                            <div className="col-md-4 mb-3 mb-md-0">
+                            <div className="col-md-6 mb-3 mb-md-0">
                                 <div className="card py-4 h-100">
                                     <div className="card-body text-center">
                                         <i className="fas fa-envelope text-primary mb-2"></i>
                                         <h4 className="text-uppercase m-0">Email</h4>
                                         <hr className="my-4 mx-auto" />
-                                        <div className="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                                        <div className="small text-black-50"><a href="#!">{contact_email}</a></div>
                                     </div>
                                 </div>
                             </div>
 
+                            <div className="col-md-6 mb-3 mb-md-0">
+                                <div className="card py-4 h-100">
+                                    <div className="card-body text-center">
+                                        <i className="fas fa-envelope text-primary mb-2"></i>
+                                        <h4 className="text-uppercase m-0">Phone / Whatsapp</h4>
+                                        <hr className="my-4 mx-auto" />
+                                        <div className="small text-black-50"><a href="#!">{contact_number}</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </div>
+
                         <div className="social d-flex justify-content-center">
 
                             <a className="mx-2" href="https://www.youtube.com/channel/UCO-RAD7pnuGJDXODein96cQ"><FontAwesomeIcon icon={faYoutube} /></a>

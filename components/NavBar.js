@@ -1,7 +1,6 @@
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { useEffect } from 'react'
+import { Navbar, Nav, Container, Button } from 'react-bootstrap'
 
 export default function NavBar() {
 
@@ -24,8 +23,6 @@ export default function NavBar() {
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
 
-    // Activate Bootstrap scrollspy on the main nav element
-
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
@@ -42,27 +39,23 @@ export default function NavBar() {
   }, [])
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div className="container px-4 px-lg-5">
-        <ul className="navbar-nav ms-auto">
+    <>
+      <Navbar className="navbar navbar-expand-lg navbar-light fixed-top " id="mainNav">
+        <Container>
+          <Navbar.Brand className="nav-item navbar-brand" href="#">Home</Navbar.Brand>
+          <Button className="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" />
 
-          <li className="nav-item"><a className="nav-link" href="#">Home</a></li>
-        </ul>
-        <button className="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <div className="collapse navbar-collapse" id="navbarResponsive">
+            <Nav className="navbar-nav ms-auto  ">
+              <Nav.Link className="nav-item" href="#about">About</Nav.Link>
+              <Nav.Link className="nav-item" href="#projects">Projects</Nav.Link>
+              <Nav.Link className="nav-item nav-link" href="#signup">Contact</Nav.Link>
+            </Nav>
+          </div>
+        </Container>
+      </Navbar>
 
-          <FontAwesomeIcon icon={faBars} />
-
-        </button>
-        <div className="collapse navbar-collapse" id="navbarResponsive">
-          <ul className="navbar-nav ms-auto">
-
-            <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
-            <li className="nav-item"><a className="nav-link" href="#projects">Projects</a></li>
-            <li className="nav-item"><a className="nav-link" href="#signup">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    </>
 
 
   )

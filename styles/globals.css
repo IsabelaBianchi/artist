@@ -239,7 +239,7 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: #445663;
   text-decoration: underline;
 }
 a:hover {
@@ -7643,6 +7643,11 @@ textarea.form-control-lg {
   padding-left: 3rem !important;
 }
 
+.px-6 {
+  padding-right: 10rem !important;
+  padding-left: 10rem !important;
+}
+
 .py-0 {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -11491,7 +11496,7 @@ body {
 }
 #mainNav .navbar-brand {
   color: #000;
-  font-weight: 700;
+ 
   padding: 0.9rem 0;
 }
 #mainNav .navbar-nav .nav-item:hover {
@@ -11538,15 +11543,15 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #333131;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #445663;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #445663;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #445663;
   }
 }
 
@@ -11669,7 +11674,7 @@ body {
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #445663;
 }
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 0.8rem;
@@ -11689,8 +11694,6 @@ body {
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
 }
