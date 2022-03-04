@@ -17,7 +17,7 @@ export default function Home() {
 
     return (
         <>
-            <body id="page-top">
+           
 
                 <div className="container-fluid bg-dark">
 
@@ -138,7 +138,7 @@ export default function Home() {
                     </div>
                 </section>
                 <Footer />
-            </body>
+           
         </>
 
 
