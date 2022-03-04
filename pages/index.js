@@ -1,15 +1,14 @@
-import Head from "next/head";
-import NavBar from "../components/NavBar";
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
-
-
+import Head from "next/head"
+import NavBar from "../components/NavBar"
+import Footer from "../components/Footer"
 
 const main_tittle = " Augusto Baschera"
 const about_text = " Augusto Baschera é um guitarrista dos relevantes nomes da nova geração da música brasileira, que propõe um novo enredo para o instrumento e a composição. Da tradição ao moderno, busca um equilíbrio de luz e sombra que convida o ouvinte a contemplar a paisagem densa e viver o presente através da improvisação. Sua música é intensa e não dá espaço para a indiferença"
-const project_one_tittle = "tanananan"
-const project_one_description = "tanananan"
+const project_one_tittle = "Grey City"
+const project_one_description = "O álbum Grey City de Augusto Baschera  e João Bernardo  tem como mote principal a fusão tímbrica desta formação singular. O disco apresenta influência da música popular, erudita e jazz. A música surge a partir de uma voz intimista e desenvolve-se através de uma linguagem moderna, de modo a retratar a justaposição de realidades distintas. Augusto Baschera e João Bernardo fazem de “Grey City” um veículo de discurso que questiona as suas condutas musicais em tempos atuais."
+
+const project_two_tittle = "Palavra de Fantoche"
+const project_two_description = "..."
 
 const contact_email = "augustobaschera@hotmail.com"
 const contact_number = "+351918307750"
@@ -57,23 +56,23 @@ export default function Home() {
 
                 <section className="projects-section bg-dark" id="projects">
                     <div className="container px-4 px-lg-5">
-                        {/* 
-                    <div className="row gx-0 mb-4 mb-lg-5 align-items-center">
-                        <div className="col-xl-8 col-lg-7"><img className="img-fluid mb-3 mb-lg-0" src="/urso.jpg" alt="..." /></div>
-                        <div className="col-xl-4 col-lg-5">
-                            <div className="featured-text text-center text-lg-left">
-                                <h4>Shoreline</h4>
-                                <p className="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                        <div className="row gx-4 gx-lg-5">
+
+                            <div className="col-4">
+                                <img className="img-fluid" src="/grey_city.jpg" alt="Grey City" />
+
+                            </div>
+                            <div className="col-4">
+                                <img className="img-fluid" src="/palavra_de_fantoche.jpg" alt="Palavra de Fantoche" />
                             </div>
                         </div>
-                    </div> */}
 
-                        <div className="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                        {/* <div className="row gx-0 mb-5 mb-lg-0 justify-content-center">
                             <div className="col-lg-6"><img className="img-fluid" src="/grey_city.jpg" alt="Grey City" /></div>
                             <div className="col-lg-6">
                                 <div className="bg-black text-center h-100 project">
                                     <div className="d-flex h-100">
-                                        <div className="project-text w-100 my-auto text-center text-lg-left">
+                                        <div className="project-text w-100 my-auto text-justify text-lg-left">
                                             <h4 className="text-white">{project_one_tittle}</h4>
                                             <p className="mb-0 text-white-50">{project_one_description}</p>
                                             <hr className="d-none d-lg-block mb-0 ms-0" />
@@ -89,21 +88,18 @@ export default function Home() {
                                 <div className="bg-black text-center h-100 project">
                                     <div className="d-flex h-100">
                                         <div className="project-text w-100 my-auto text-center text-lg-right">
-                                            <h4 className="text-white">Mountains</h4>
-                                            <p className="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                                            <h4 className="text-white">{project_two_tittle}</h4>
+                                            <p className="mb-0 text-white-50">{project_two_description}</p>
                                             <hr className="d-none d-lg-block mb-0 me-0" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="text-center my-3">
                             <a className="btn btn-primary" href="/all_projects">All Projects</a>
-
-
                         </div>
-
                     </div>
                 </section>
 
@@ -138,21 +134,10 @@ export default function Home() {
 
                         </div>
 
-                        <div className="social d-flex justify-content-center">
 
-                            <a className="mx-2" href="https://www.youtube.com/channel/UCO-RAD7pnuGJDXODein96cQ"><FontAwesomeIcon icon={faYoutube} /></a>
-                            <a className="mx-2" href="https://www.instagram.com/augustobaschera/"><FontAwesomeIcon icon={faInstagram} /></a>
-                            <a className="mx-2" href="https://www.facebook.com/augusto.baschera"><FontAwesomeIcon icon={faFacebook} /></a>
-
-
-                        </div>
                     </div>
                 </section>
-
-
-
-                <footer className="footer bg-black small text-center text-white-50"><div className="container px-4 px-lg-5">Copyright &copy; Your Website 2021</div></footer>
-
+                <Footer />
             </body>
         </>
 

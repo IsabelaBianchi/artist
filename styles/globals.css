@@ -7643,10 +7643,6 @@ textarea.form-control-lg {
   padding-left: 3rem !important;
 }
 
-.px-6 {
-  padding-right: 10rem !important;
-  padding-left: 10rem !important;
-}
 
 .py-0 {
   padding-top: 0 !important;
@@ -7856,6 +7852,10 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
+}
+
+.text-justify {
+  text-align: justify !important;
 }
 
 .text-decoration-none {
@@ -11631,16 +11631,16 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #445663;
   }
 }
 .projects-section .project-text {
-  padding: 3rem;
+   padding: 3rem 3rem 0rem 3rem; 
   font-size: 90%;
 }
 @media (min-width: 992px) {
   .projects-section .project-text {
-    padding: 5rem;
+    /* padding: 5rem; */
   }
   .projects-section .project-text hr {
     border-color: #64a19d;
