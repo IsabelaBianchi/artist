@@ -21,15 +21,22 @@ export default function AllProjects() {
             <section className="projects-section bg-dark">
                 <Head>
                     <title>{main_tittle}</title>
-                    <meta name="description" content="Jazz Mussic Augusto Baschera" />
+                    <meta name="description" content="Jazz Mussician Guitarist Augusto Baschera" />
                     <link rel="icon" type="image/png" sizes="32x32" href="/AB.png" />
                 </Head>
                 <NavBar />
 
+                <div className="container px-4 px-lg-5 pt-lg-2 pb-5 pb-lg-5 d-flex h-100 align-items-center justify-content-center">
+                    <div className="d-flex justify-content-center">
+                        <div className="text-center">
+                            <h1 className="project-page mx-auto my-0 text-uppercase">{t.menu_projects}</h1>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="container px-4 px-lg-5">
-                    {locale}
                     <div className="row gx-0 mb-4 mb-lg-5 align-items-center">
-                        <div className="col-xl-4 col-lg-5"><img className="img-fluid mb-3 mb-lg-0" src="/grey_city.jpeg" alt="Grey City" /></div>
+                        <div className="col-xl-4 col-lg-4"><img className="img-fluid mb-3 mb-lg-0" src="/grey_city.jpeg" alt="Grey City" /></div>
                         <div className="col-xl-8 col-lg-7">
                             <div className="featured-text text-center text-lg-left">
 
@@ -39,13 +46,13 @@ export default function AllProjects() {
                                     <a className="text-white col-sm-1-5 col-3" href="https://www.youtube.com/channel/UCb40yaXX-IrO5lyUBAV3MUg"><FontAwesomeIcon icon={faYoutube} /></a>
                                 </div>
 
-                                <p className="text-white mt-2 mb-0 text-justify">{t.project_one_description}</p>
+                                <p className="text-white mt-2 mb-0 text-justify projects-p-text">{t.project_one_description}</p>
                             </div>
                         </div>
                     </div>
 
                     <div className="row gx-0 mb-4 mb-lg-5 align-items-center">
-                        <div className="col-xl-4 col-lg-5"><img className="img-fluid mb-3 mb-lg-0" src="/palavra_de_fantoche.jpeg" alt="Palavra de Fantoche" /></div>
+                        <div className="col-xl-4 col-lg-4"><img className="img-fluid mb-3 mb-lg-0" src="/palavra_de_fantoche.jpeg" alt="Palavra de Fantoche" /></div>
                         <div className="col-xl-8 col-lg-7">
                             <div className="featured-text text-center text-lg-left">
 
@@ -53,10 +60,8 @@ export default function AllProjects() {
                                 <div className="row justify-content-center">
                                     <a className="text-white col-sm-1-5 col-3" href="https://open.spotify.com/album/1t0CTVfRu9lgughcB7dz6z"><FontAwesomeIcon icon={faSpotify} /></a>
                                     <a className="text-white col-sm-1-5 col-3" href="https://www.youtube.com/watch?v=4VuIl_Egq7A&list=OLAK5uy_mmlesfoLHVV7e8weAsjYSXlTks1Tn_0SM"><FontAwesomeIcon icon={faYoutube} /></a>
-
                                 </div>
-
-                                <p className="text-white mt-2 mb-0 text-justify">{t.project_two_description}</p>
+                                <p className="text-white mt-2 mb-0 text-justify projects-p-text">{t.project_two_description}</p>
                             </div>
                         </div>
                     </div>

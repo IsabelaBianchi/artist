@@ -4,13 +4,7 @@ import NavBar from "../components/NavBar"
 import Footer from "../components/Footer"
 import en from '../locales/en'
 import pt from '../locales/pt'
-import { Carousel, Container, Row, Col } from 'react-bootstrap'
-
 import { useRouter } from 'next/router'
-const contact_email = "augustobaschera@hotmail.com"
-const contact_number = "+351918307750"
-
-
 
 export default function Home() {
     const router = useRouter();
@@ -101,7 +95,7 @@ export default function Home() {
                                     <i className="fas fa-envelope text-primary mb-2"></i>
                                     <h4 className="text-uppercase m-0">E-mail</h4>
                                     <hr className="my-4 mx-auto" />
-                                    <div className="small text-black-50"><a href="#!">{contact_email}</a></div>
+                                    <div className="small text-black-50"><a href="#!">{t.contact_email}</a></div>
                                 </div>
                             </div>
                         </div>
@@ -112,7 +106,7 @@ export default function Home() {
                                     <i className="fas fa-envelope text-primary mb-2"></i>
                                     <h4 className="text-uppercase m-0">{t.contact_phone} / Whatsapp</h4>
                                     <hr className="my-4 mx-auto" />
-                                    <div className="small text-black-50"><a href="#!">{contact_number}</a></div>
+                                    <div className="small text-black-50"><a href="#!">{t.contact_number}</a></div>
                                 </div>
                             </div>
                         </div>
