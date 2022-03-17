@@ -1,5 +1,5 @@
 import Head from "next/head"
-import LinkNext from "next/Link"
+import LinkNext from "next/link"
 import NavBar from "../components/NavBar"
 import Footer from "../components/Footer"
 import en from '../locales/en'
