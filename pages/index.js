@@ -1,5 +1,5 @@
 import Head from "next/head"
-import Link from "next/Link"
+import LinkNext from "next/Link"
 import NavBar from "../components/NavBar"
 import Footer from "../components/Footer"
 import en from '../locales/en'
@@ -51,24 +51,7 @@ export default function Home() {
 
 
             <section className="projects-home-section bg-dark" id="projects">
-                {/* <div className="container px-4 px-lg-5">
-                    <div className="row gx-4 gx-lg-5">
-
-                        <div className="col-4">
-                            <img className="img-fluid" src="/grey_city.jpeg" alt={t.project_one_tittle} />
-
-                        </div>
-                        <div className="col-4">
-                            <img className="img-fluid" src="/palavra_de_fantoche.jpeg" alt={t.project_two_tittle} />
-                        </div>
-                    </div>
-
-
-                    <div className="text-center my-3">
-                        <Link href="/all_projects" locale={locale}><a className="btn btn-primary">{t.all_projects}</a></Link>
-
-                    </div>
-                </div> */}
+              
                 <div className="container px-4 px-lg-5 ">
                     <div className="row gx-4 gx-lg-5 justify-content-center ">
 
@@ -79,7 +62,7 @@ export default function Home() {
                 </div>
 
                 <div className="text-center my-3">
-                    <Link href="/all_projects" locale={locale}><a className="btn btn-light">{t.all_projects}</a></Link>
+                    <LinkNext href="/all_projects" locale={locale}><a className="btn btn-light">{t.all_projects}</a></LinkNext>
 
                 </div>
             </section>
