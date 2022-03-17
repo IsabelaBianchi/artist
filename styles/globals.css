@@ -11513,6 +11513,7 @@ body {
   outline: none;
   background-color: transparent;
 }
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
@@ -11539,6 +11540,7 @@ body {
   #mainNav.navbar-shrink {
     background-color: #fff;
   }
+  
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
   }
@@ -11628,8 +11630,12 @@ body {
 
 .projects-section {
   padding: 10rem 0;
-  
 }
+
+.projects-home-section {
+  padding: 3rem 0;
+}
+
 .projects-section .featured-text {
   padding: 2rem;
 }
@@ -11674,7 +11680,7 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding-top: 3rem;
   
 }
 .contact-section .card {
@@ -11693,7 +11699,7 @@ body {
   width: 3rem;
 }
 .contact-section .social {
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 .contact-section .social a {
   text-align: center;

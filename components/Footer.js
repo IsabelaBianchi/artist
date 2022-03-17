@@ -25,7 +25,7 @@ export default function Footer() {
                 </div>
 
             </div>
-            <footer className="footer bg-black small text-center text-white-50"><div className="container px-4 px-lg-5">Copyright &copy; Your Website 2021</div></footer>
+            <footer className="footer bg-black small text-center text-white-50"><div className="container px-4 px-lg-5"></div></footer>
         </section>
     )
 }
