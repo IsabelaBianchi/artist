@@ -5,6 +5,7 @@ export default {
     menu_about: 'Sobre',
     menu_projects : 'Projetos',
     menu_contact: 'Contacto',
+    menu_galery: 'Galeria',
     project_one_tittle: "Grey City",
     project_one_description:  "O álbum Grey City de Augusto Baschera  e João Bernardo  tem como mote principal a fusão tímbrica desta formação singular. O disco apresenta influência da música popular, erudita e jazz. A música surge a partir de uma voz intimista e desenvolve-se através de uma linguagem moderna, de modo a retratar a justaposição de realidades distintas. Augusto Baschera e João Bernardo fazem de “Grey City” um veículo de discurso que questiona as suas condutas musicais em tempos atuais.",
     project_two_tittle : "Palavra de Fantoche",

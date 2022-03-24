@@ -6,6 +6,7 @@ export default {
     menu_about: 'About',
     menu_projects : 'Projects',
     menu_contact: 'Contact',
+    menu_galery: 'Gallery',
     project_one_tittle: "Grey City",
     project_one_description:  "The “Grey City” album  by Augusto Baschera and João Bernardo is mainly based on the timbral fusion of this unique formation. The album is influenced by popular, classical and jazz music. The music comes from an intimate voice and develops through a modern language, in order to portray the juxtaposition of different realities. Augusto Baschera and João Bernardo make “Grey City” a way to question their musical conduct in current times.",   
     project_two_tittle : "Palavra de Fantoche",

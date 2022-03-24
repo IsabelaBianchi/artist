@@ -5,7 +5,6 @@ import en from '../locales/en'
 import pt from '../locales/pt'
 import { useRouter } from 'next/router'
 
-
 export default function NavBar() {
   const router = useRouter();
   const locale = router.locale;
@@ -59,6 +58,7 @@ export default function NavBar() {
             <Nav className="navbar-nav ms-auto  ">
               <Nav.Link className="nav-item" href="/#about">{t.menu_about}</Nav.Link>
               <Nav.Link className="nav-item" href="/#projects">{t.menu_projects}</Nav.Link>
+              <Nav.Link className="nav-item" href="/galery">{t.menu_galery}</Nav.Link>
               <Nav.Link className="nav-item nav-link" href="/#signup">{t.menu_contact}</Nav.Link>
             </Nav>
           </div>

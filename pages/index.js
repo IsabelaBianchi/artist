@@ -26,7 +26,6 @@ export default function Home() {
             </div>
 
             <header className="masthead">
-                {locale}
                 <div className="container px-4 px-lg-5 pt-lg-6 d-flex h-100 mt-6 align-items-center justify-content-center">
                     <div className="d-flex justify-content-center">
                         <div className="text-center">
@@ -51,12 +50,18 @@ export default function Home() {
 
 
             <section className="projects-home-section bg-dark" id="projects">
-              
+
                 <div className="container px-4 px-lg-5 ">
                     <div className="row gx-4 gx-lg-5 justify-content-center ">
 
-                        <div className="col-8">
-                            <img className="img-fluid" src="/gif.gif" alt={t.project_two_tittle} />
+                        <div className="col-12">
+
+                            <video style={{ height: 360, width: '100%' }} loop="true" autoPlay="autoplay" muted>
+                                <source src="/mainvideo.mp4"
+                                    type="video/mp4"></source>
+                                Sorry, your browser doesn't support videos.
+                            </video>
+
                         </div>
                     </div>
                 </div>
