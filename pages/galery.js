@@ -6,9 +6,7 @@ import Footer from "../components/Footer"
 import en from '../locales/en'
 import pt from '../locales/pt'
 import { useRouter } from 'next/router'
-import { useState } from "react"
-import { teste, Example, App } from "../components/Modal"
-import { Figure, Button } from "react-bootstrap";
+import { Carousel, CarouselItem, Figure } from "react-bootstrap";
 const main_tittle = "Augusto Baschera"
 
 
@@ -19,9 +17,17 @@ export default function Galery() {
     const locale = router.locale;
     const t = (locale === 'pt') ? pt : en;
 
+    function importAllGaleryImages(r) {
+        let images = r.keys().map((value) => value.replace('./', './galery/'));
+        return images
+    }
+
+    const images = importAllGaleryImages(require.context('../public/galery', false, /\.(png|jpe?g|svg)$/));
+
+
     return (
         <>
-       
+
             <section className="projects-section bg-dark">
                 <Head>
                     <title>{main_tittle}</title>
@@ -30,28 +36,31 @@ export default function Galery() {
                 </Head>
                 <NavBar />
 
-                <div className="container px-4 px-lg-5 pt-lg-2 pb-5 pb-lg-5 d-flex h-100 align-items-center justify-content-center">
-                    <div className="d-flex justify-content-center">
-                        <div className="text-center">
-                            <h1 className="project-page mx-auto my-0 text-uppercase">{t.menu_galery}</h1>
-                        </div>
-                    </div>
+                <div className="container px-8 px-lg-5">
+                    <Carousel fade>
+                        {images.map((img) =>
+                            <CarouselItem>
+                                <Figure className="galeryphotos" key={img}>
+                                    <Figure.Image
+                                        alt={img}
+                                        src={img}
+                                    >
+
+                                    </Figure.Image>
+
+                                </Figure>
+                                <Carousel.Caption>
+                                    <h3>First slide label</h3>
+                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                </Carousel.Caption>
+                            </CarouselItem>
+                        )}
+                    </Carousel>
                 </div>
 
-                <div className="container px-4 px-lg-5">
-                  {/* TODO array de fotos */}
-                    <Figure onClick={e => aa()}>
-                        <Figure.Image 
-                            width={250}
-                            height={250}
-                            alt="171x180"
-                            src="urso0.jpg"
-                        />    
-                    </Figure>
-                </div>                
             </section>
             <Footer />
-         <App/>
+
         </>
     )
 }
