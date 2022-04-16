@@ -11,6 +11,8 @@ export default {
     project_one_description:  "The “Grey City” album  by Augusto Baschera and João Bernardo is mainly based on the timbral fusion of this unique formation. The album is influenced by popular, classical and jazz music. The music comes from an intimate voice and develops through a modern language, in order to portray the juxtaposition of different realities. Augusto Baschera and João Bernardo make “Grey City” a way to question their musical conduct in current times.",   
     project_two_tittle : "Palavra de Fantoche",
     project_two_description : "'Palavra de Fantoche' are poems by Gilberto Lamaison set to music by Augusto Baschera. An intertwining of rhythms and songs that catalyze authenticity and improvisation, bringing out verses and melodies full of light and fantasy. On this album, Augusto is accompanied by a trio composed of João Barradas (accordion), Tiago Mourão (bass) and Vini Baschera (drums). The recitation is up to the author of the poetry himself.",
+    project_three_tittle:"Augusto Baschera & Paulo Bernardino",
+    project_three_description: "Augusto Baschera (guitar/eletric guitar) and Paulo Bernardino (clarinet/bass clarinet) report the immensity of Brazilian daily life in these instruments, sounding like a breath of life that travels through different places and welcomes the nuances that portray in a sonorous way the spirit of this such diverse country.",
     contact_phone : 'Phone',
     contact_email : "augustobaschera@hotmail.com",
     contact_number : "+351918307750"

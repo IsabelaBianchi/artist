@@ -52,24 +52,16 @@ export default function Home() {
             <section className="projects-home-section bg-dark" id="projects">
 
                 <div className="container px-4 px-lg-5 ">
-                    <div className="row gx-4 gx-lg-5 justify-content-center ">
-
-                        <div className="col-12">
-
-                            <video style={{ height: 360, width: '100%' }} loop="true" autoPlay="autoplay" muted>
-                                <source src="/mainvideo.mp4"
-                                    type="video/mp4"></source>
-                                Sorry, your browser doesn't support videos.
-                            </video>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div className="text-center my-3">
+                    <div className="proje row gx-4 gx-lg-5 justify-content-center ">
+ <div className="text-center my-3">
                     <LinkNext href="/all_projects" locale={locale}><a className="btn btn-light">{t.all_projects}</a></LinkNext>
 
                 </div>
+                    </div>
+
+                </div>
+
+               
             </section>
 
 

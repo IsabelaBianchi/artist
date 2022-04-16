@@ -1,0 +1,52 @@
+import NavBar from "./NavBar"
+
+import Head from "next/head"
+import Footer from "./Footer"
+
+import en from '../locales/en'
+import pt from '../locales/pt'
+import { useRouter } from 'next/router'
+import { Carousel, CarouselItem, Figure } from "react-bootstrap";
+const main_tittle = "Augusto Baschera"
+
+
+
+export default function Galery() {
+
+    const router = useRouter();
+    const locale = router.locale;
+    const t = (locale === 'pt') ? pt : en;
+
+    function importAllGaleryImages(r) {
+        let images = r.keys().map((value) => value.replace('./', './galery/'));
+        return images
+    }
+
+    const images = importAllGaleryImages(require.context('../public/galery', false, /\.(png|jpe?g|svg)$/));
+
+
+    return (
+        <>
+                <div className="container px-8 px-lg-5">
+                    <Carousel fade>
+                        {images.map((img) =>
+                            <CarouselItem interval={300}>
+                                <Figure className="galeryphotos" key={img}>
+                                    <Figure.Image
+                                        alt={img}
+                                        src={img}
+                                    >
+
+                                    </Figure.Image>
+
+                                </Figure>
+                                
+                            </CarouselItem>
+                        )}
+                    </Carousel>
+                </div>
+
+
+        </>
+    )
+}
