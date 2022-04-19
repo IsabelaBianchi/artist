@@ -14,6 +14,8 @@ export default {
     project_two_description : "'Palavra de Fantoche' são poemas de Gilberto Lamaison musicados por Augusto Baschera.  Um entrelaço de ritmos e canções que catalisam autenticidade e improviso, trazendo à tona versos e melodias repletos de luz e fantasia. Nesse disco, Augusto está acompanhado por um trio composto por João Barradas (acordeão), Tiago Mourão (Baixo) e Vini Baschera (bateria). A récita  fica por conta do próprio autor da poesia.",
     project_three_tittle:"Augusto Baschera & Paulo Bernardino",
     project_three_description: "Augusto Baschera (violão/guitarra elétrica) e Paulo Bernardino (clarinete/clarinete baixo) relatam a imensidão do cotidiano brasileiro nestes instrumentos, soando como um sopro de vida que percorre diferentes lugares e acolhe as nuances que retratam de forma sonora o espírito de um país tão diverso.",
+    project_four_tittle: "'Concierto de Aranjuez' - Concerto para Violão e Orquestra",
+    project_four_description: "Concierto de Aranjuez - Augusto Baschera & Orquestra Sinfónica - Escola Superior de Música de Lisboa",
     contact_phone : 'Fone',
     contact_email : "augustobaschera@hotmail.com",
     contact_number : "+351918307750",

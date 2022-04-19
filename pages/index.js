@@ -62,7 +62,7 @@ export default function Home() {
 
 
                 </div> */}
-                <div className="proje container px-4 px-lg-5 ">
+                <div className="proje  px-4 px-lg-5 ">
 
                     <div className="projebutton row gx-4 gx-lg-5 justify-content-center ">
                         <LinkNext href="/all_projects" locale={locale}><a className="btn btn-outline-light btn-sm ">{t.all_projects}</a></LinkNext>

@@ -79,6 +79,19 @@ export default function AllProjects() {
                             </div>
                         </div>
                     </div>
+                    <div className="row gx-0 mb-4 mb-lg-5 align-items-center">
+                        <div className="col-xl-4 col-lg-4"><img className="img-fluid mb-3 mb-lg-0" src="/galery/4.png" alt="Baschera_Bernardino" /></div>
+                        <div className="col-xl-8 col-lg-7">
+                            <div className="featured-text text-center text-lg-left">
+
+                                <h4 className="text-white">{t.project_four_tittle}</h4>
+                                <div className="row justify-content-center">
+                                    <a className="text-white col-sm-1-5 col-3" href="hhttps://www.youtube.com/watch?v=Fi-B3nDIBkI&t=157s"><FontAwesomeIcon icon={faYoutube} /></a>
+                                </div>
+                                <p className="text-white mt-2 mb-0 text-justify projects-p-text">{t.project_four_description}</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <Footer />

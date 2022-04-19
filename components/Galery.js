@@ -1,15 +1,8 @@
-import NavBar from "./NavBar"
-
-import Head from "next/head"
-import Footer from "./Footer"
-
 import en from '../locales/en'
 import pt from '../locales/pt'
 import { useRouter } from 'next/router'
 import { Carousel, CarouselItem, Figure } from "react-bootstrap";
 const main_tittle = "Augusto Baschera"
-
-
 
 export default function Galery() {
 
@@ -24,34 +17,17 @@ export default function Galery() {
 
     const images = importAllGaleryImages(require.context('../public/galery', false, /\.(png|jpe?g|svg)$/));
 
-
     return (
         <>
-
-
             {images.map((img) =>
-
                 <Figure className="col-lg-4 col-sm-6 galeryphotos img-thumbnail" key={img}>
                     <Figure.Image
                         alt={img}
                         src={img}
                     >
-
                     </Figure.Image>
-
                 </Figure>
-
-
-
-
             )}
-
-
-
-
-
-
-
 
         </>
     )
