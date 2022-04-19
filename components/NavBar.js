@@ -1,15 +1,16 @@
 
 import { useEffect } from 'react'
-import { Navbar, Nav, Container, Button, ButtonGroup, Row } from 'react-bootstrap'
+import { Navbar, Nav, Container, Button } from 'react-bootstrap'
 import en from '../locales/en'
 import pt from '../locales/pt'
 import { useRouter } from 'next/router'
+
 
 export default function NavBar() {
   const router = useRouter();
   const locale = router.locale;
   const t = (locale === 'pt') ? pt : en;
-
+  const urlCurrent = router.basePath;
   useEffect(() => {
     var navbarShrink = function () {
       const navbarCollapsible = document.body.querySelector('#mainNav');
@@ -47,7 +48,6 @@ export default function NavBar() {
 
   return (
     <>
-
       <Navbar className="navbar navbar-expand-lg navbar-light fixed-top " id="mainNav">
 
         <Container>
@@ -57,9 +57,10 @@ export default function NavBar() {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <Nav className="navbar-nav ms-auto  ">
               <Nav.Link className="nav-item" href="/#about">{t.menu_about}</Nav.Link>
-              <Nav.Link className="nav-item" href="/#projects">{t.menu_projects}</Nav.Link>
+              <Nav.Link className="nav-item" href="/all_projects" >{t.menu_projects}</Nav.Link>
               <Nav.Link className="nav-item" href="/galery">{t.menu_galery}</Nav.Link>
               <Nav.Link className="nav-item nav-link" href="/#signup">{t.menu_contact}</Nav.Link>
+              
             </Nav>
           </div>
 

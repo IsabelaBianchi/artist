@@ -619,6 +619,9 @@ progress {
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
+  margin-bottom:6px;
+  display:flex;
+  flex-wrap: wrap;
 }
 
 .figure {
@@ -3495,6 +3498,7 @@ textarea.form-control-lg {
 .btn-outline-light {
   color: #f8f9fa;
   border-color: #f8f9fa;
+  border: 1px solid !important;
 }
 .btn-outline-light:hover {
   color: #000;
@@ -6244,7 +6248,7 @@ textarea.form-control-lg {
   top: 0;
   bottom: 0;
   z-index: 1;
-  display: none;
+  display: block;
   align-items: center;
   justify-content: center;
   width: 15%;
@@ -11611,14 +11615,22 @@ body {
 .proje {
   position: relative;
   width: 100%;
-  height: auto;
-  min-height: 35rem;
+  height: 15rem;
+  
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/2.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/augusto_baschera_14.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+.projebutton{
+  padding: 0rem 25rem 10rem 25rem;
+}
+.projebutton .btn{
+  padding: 1rem;
+ font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
 }
 .masthead h1, .masthead .h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11756,8 +11768,44 @@ body {
   height: 3rem;
   width: 3rem;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 250, 0.8);
 }
+.video-container {
+  height: 20rem;
+  width: 100%;
+  position: relative;
+}
+
+.video-container video {
+width: 100%;
+height: 100%;
+position: absolute;
+object-fit: cover;
+z-index: 0;
+opacity: 1;
+
+}
+
+.video-container .caption {
+z-index: 1;
+position: relative;
+text-align: center;
+color: #dc0000;
+padding: 5rem;
+}
+
+
+.guitar{
+  color: white !important;
+}
+
+.guitar a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  line-height: 1rem !important;
+}
+
 .contact-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
 }

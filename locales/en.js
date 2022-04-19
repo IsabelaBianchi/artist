@@ -15,6 +15,8 @@ export default {
     project_three_description: "Augusto Baschera (guitar/eletric guitar) and Paulo Bernardino (clarinet/bass clarinet) report the immensity of Brazilian daily life in these instruments, sounding like a breath of life that travels through different places and welcomes the nuances that portray in a sonorous way the spirit of this such diverse country.",
     contact_phone : 'Phone',
     contact_email : "augustobaschera@hotmail.com",
-    contact_number : "+351918307750"
+    contact_number : "+351918307750",
+    cannali_guitar1: "Augusto Baschera uses "
+
 
 }

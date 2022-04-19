@@ -27,24 +27,30 @@ export default function Galery() {
 
     return (
         <>
-                <div className="container px-8 px-lg-5">
-                    <Carousel fade>
-                        {images.map((img) =>
-                            <CarouselItem interval={300}>
-                                <Figure className="galeryphotos" key={img}>
-                                    <Figure.Image
-                                        alt={img}
-                                        src={img}
-                                    >
 
-                                    </Figure.Image>
 
-                                </Figure>
-                                
-                            </CarouselItem>
-                        )}
-                    </Carousel>
-                </div>
+            {images.map((img) =>
+
+                <Figure className="col-lg-4 col-sm-6 galeryphotos img-thumbnail" key={img}>
+                    <Figure.Image
+                        alt={img}
+                        src={img}
+                    >
+
+                    </Figure.Image>
+
+                </Figure>
+
+
+
+
+            )}
+
+
+
+
+
+
 
 
         </>

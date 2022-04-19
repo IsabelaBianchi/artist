@@ -50,18 +50,27 @@ export default function Home() {
 
 
             <section className="projects-home-section bg-dark" id="projects">
+                {/* <div class="video-container">
+                    <video autoplay="true" loop>
+                        <source src="mainvideo.mp4" type="video/mp4" />
+                    </video>
+                    <div class="caption">
+                        <div className="text-center my-3">
+                            <LinkNext href="/all_projects" locale={locale}><a className="btn btn-secondary btn-sm">{t.all_projects}</a></LinkNext>
+                        </div>
+                    </div>
 
-                <div className="container px-4 px-lg-5 ">
-                    <div className="proje row gx-4 gx-lg-5 justify-content-center ">
- <div className="text-center my-3">
-                    <LinkNext href="/all_projects" locale={locale}><a className="btn btn-light">{t.all_projects}</a></LinkNext>
 
-                </div>
+                </div> */}
+                <div className="proje container px-4 px-lg-5 ">
+
+                    <div className="projebutton row gx-4 gx-lg-5 justify-content-center ">
+                        <LinkNext href="/all_projects" locale={locale}><a className="btn btn-outline-light btn-sm ">{t.all_projects}</a></LinkNext>
                     </div>
 
                 </div>
 
-               
+
             </section>
 
 
