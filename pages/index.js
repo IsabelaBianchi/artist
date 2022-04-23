@@ -31,7 +31,9 @@ export default function Home() {
                         <div className="text-center">
                             <h1 className="mx-auto my-0  text-uppercase">{t.main_tittle}</h1>
                         </div>
+                        
                     </div>
+                    
                 </div>
 
             </header>
@@ -48,31 +50,12 @@ export default function Home() {
                 </div>
             </section>
 
-
+        
             <section className="projects-home-section bg-dark" id="projects">
-                {/* <div class="video-container">
-                    <video autoplay="true" loop>
-                        <source src="mainvideo.mp4" type="video/mp4" />
-                    </video>
-                    <div class="caption">
-                        <div className="text-center my-3">
-                            <LinkNext href="/all_projects" locale={locale}><a className="btn btn-secondary btn-sm">{t.all_projects}</a></LinkNext>
-                        </div>
-                    </div>
-
-
-                </div> */}
-                <div className="proje  px-4 px-lg-5 ">
-
-                    <div className="projebutton row gx-4 gx-lg-5 justify-content-center ">
-                        <LinkNext href="/all_projects" locale={locale}><a className="btn btn-outline-light btn-sm ">{t.all_projects}</a></LinkNext>
-                    </div>
-
+                <div className="proje  px-4 px-lg-5 pt-lg-6 d-flex h-100 mt-6 align-items-center justify-content-center justify-content-center ">
+                    <LinkNext href="/all_projects" locale={locale}><a className="btn btn-outline-light btn-sm ">{t.all_projects}</a></LinkNext>
                 </div>
-
-
             </section>
-
 
 
             <section className="contact-section bg-black" id="signup">

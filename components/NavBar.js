@@ -4,13 +4,14 @@ import { Navbar, Nav, Container, Button } from 'react-bootstrap'
 import en from '../locales/en'
 import pt from '../locales/pt'
 import { useRouter } from 'next/router'
+import LinkNext from 'next/link'
 
 
 export default function NavBar() {
   const router = useRouter();
   const locale = router.locale;
   const t = (locale === 'pt') ? pt : en;
-  const urlCurrent = router.basePath;
+
   useEffect(() => {
     var navbarShrink = function () {
       const navbarCollapsible = document.body.querySelector('#mainNav');
@@ -46,22 +47,37 @@ export default function NavBar() {
 
   }, [])
 
+
   return (
     <>
       <Navbar className="navbar navbar-expand-lg navbar-light fixed-top " id="mainNav">
 
         <Container>
-      {}
+
           <Navbar.Brand className="nav-item navbar-brand" href="/">Home</Navbar.Brand>
           <Button className="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" />
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <Nav className="navbar-nav ms-auto  ">
-              <Nav.Link className="nav-item" href="/#about">{t.menu_about}</Nav.Link>
-              <Nav.Link className="nav-item" href="/all_projects" >{t.menu_projects}</Nav.Link>
-              <Nav.Link className="nav-item" href="/galery">{t.menu_galery}</Nav.Link>
-              <Nav.Link className="nav-item nav-link" href="/#signup">{t.menu_contact}</Nav.Link>
               
+              <LinkNext href="/bio" locale={locale}>
+                <Nav.Link className="nav-item" href="/bio">{t.menu_biography}</Nav.Link>
+              </LinkNext>
+
+              <LinkNext href="/all_projects" locale={locale}>
+                <Nav.Link className="nav-item" href="/all_projects">{t.all_projects}</Nav.Link>
+              </LinkNext>
+
+              <LinkNext href="/galery" locale={locale}>
+                <Nav.Link className="nav-item" href="/galery">{t.menu_galery}</Nav.Link>
+              </LinkNext>
+
+              <LinkNext href="/#signup" locale={locale}>
+                <Nav.Link className="nav-item" href="/#signup">{t.menu_contact}</Nav.Link>
+              </LinkNext>
+
+
             </Nav>
+          
           </div>
 
         </Container>

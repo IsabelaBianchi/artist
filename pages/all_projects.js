@@ -15,7 +15,7 @@ export default function AllProjects() {
     const router = useRouter();
     const locale = router.locale;
     const t = (locale === 'pt') ? pt : en;
-    console.log(locale)
+
     return (
         <>
             <section className="projects-section bg-dark">

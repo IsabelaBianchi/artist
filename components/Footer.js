@@ -24,7 +24,7 @@ export default function Footer() {
 
                     </div>
                     <div className="social d-flex justify-content-center guitar">
-                        {t.cannali_guitar1} <a href="https://www.canalliguitars.com/">
+                        {t.cannali_guitar1} <a href="https://www.canalliguitars.com/#sobre">
                         <Figure> <Figure.Image
                             alt=""
                             src="/logo4.png"

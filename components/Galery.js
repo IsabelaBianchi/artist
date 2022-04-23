@@ -11,7 +11,8 @@ export default function Galery() {
     const t = (locale === 'pt') ? pt : en;
 
     function importAllGaleryImages(r) {
-        let images = r.keys().map((value) => value.replace('./', './galery/'));
+        let images = r.keys().map((value) => value.replace('./', '/galery/'));
+        console.log(images);
         return images
     }
 
@@ -24,6 +25,7 @@ export default function Galery() {
                     <Figure.Image
                         alt={img}
                         src={img}
+                      
                     >
                     </Figure.Image>
                 </Figure>
