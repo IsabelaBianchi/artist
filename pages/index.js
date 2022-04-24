@@ -38,7 +38,7 @@ export default function Home() {
 
             </header>
 
-            <section className="about-section text-center " id="about">
+            <section className="about-section text-center bg-dark" id="about">
                 <div className="container px-4 px-lg-5">
                     <div className="row gx-4 gx-lg-5 justify-content-center">
                         <div className="col-lg-8">
@@ -51,7 +51,7 @@ export default function Home() {
             </section>
 
         
-            <section className="projects-home-section bg-white" id="projects">
+            <section className="projects-home-section bg-dark" id="projects">
                 <div className="proje  px-4 px-lg-5 pt-lg-6 d-flex h-100 mt-6 align-items-center justify-content-center justify-content-center ">
                     <LinkNext href="/all_projects" locale={locale}><a className="btn btn-outline-light btn-sm ">{t.all_projects}</a></LinkNext>
                 </div>
