@@ -37,7 +37,7 @@ export default function Home() {
                 </div>
 
             </header>
-
+            <section className="division-section pt-1 bg-dark"></section>
             <section className="about-section text-center bg-dark" id="about">
                 <div className="container px-4 px-lg-5">
                     <div className="row gx-4 gx-lg-5 justify-content-center">
