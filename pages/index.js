@@ -18,7 +18,7 @@ export default function Home() {
 
                 <Head>
                     <title>{t.main_tittle}</title>
-                    <meta name="description" content={t.main_title_desc} />
+                    <meta name="description"  content="Jazz Music Guitarist Augusto Baschera" />
                     <link rel="icon" type="image/png" sizes="32x32" href="/AB.png" />
                 </Head>
                 <NavBar />

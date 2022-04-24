@@ -19,7 +19,7 @@ export default function Galerya(){
             <section className="projects-section bg-dark">
                 <Head>
                     <title>{main_tittle}</title>
-                    <meta name="description" content="Jazz Mussician Guitarist Augusto Baschera" />
+                    <meta name="description" content="Jazz Musician Guitarist Augusto Baschera" />
                     <link rel="icon" type="image/png" sizes="32x32" href="/AB.png" />
                 </Head>
                 <NavBar />
