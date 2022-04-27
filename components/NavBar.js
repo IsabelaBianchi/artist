@@ -74,6 +74,7 @@ export default function NavBar() {
               <LinkNext href="/#signup" locale={locale}>
                 <Nav.Link className="nav-item" href="/#signup">{t.menu_contact}</Nav.Link>
               </LinkNext>
+              
 
 
             </Nav>

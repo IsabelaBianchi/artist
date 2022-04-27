@@ -86,7 +86,7 @@ export default function AllProjects() {
 
                                 <h4 className="text-white">{t.project_four_tittle}</h4>
                                 <div className="row justify-content-center">
-                                    <a className="text-white col-sm-1-5 col-3" href="hhttps://www.youtube.com/watch?v=Fi-B3nDIBkI&t=157s"><FontAwesomeIcon icon={faYoutube} /></a>
+                                    <a className="text-white col-sm-1-5 col-3" href="https://www.youtube.com/watch?v=Fi-B3nDIBkI"><FontAwesomeIcon icon={faYoutube} /></a>
                                 </div>
                                 <p className="text-white mt-2 mb-0 text-justify projects-p-text">{t.project_four_description}</p>
                             </div>

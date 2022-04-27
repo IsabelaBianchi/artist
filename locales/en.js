@@ -1,7 +1,7 @@
 export default {
     main_tittle: 'Augusto Baschera',
     main_title_desc: 'Jazz Guitarist',
-    about: 'Augusto Baschera is a relevant guitarist of the Brazilian Music new generation, who offer a new scenario for the instrument and composition. From tradition to modern, he seeks a balance between light and shadow, inviting the listener to live the moment and contemplate the dense landscape through improvisation. Your music is intense and leaves no chance for indifference',
+    about: 'Augusto Baschera is a relevant guitarist of the Brazilian Music new generation, who offer a new scenario for the instrument and composition. From tradition to modern, he seeks a balance between light and shadow, inviting the listener to live the moment and contemplate the dense landscape through improvisation. Your music is intense and leaves no chance for indifference.',
     about_biografy_one : "Nascido em 9 de julho de 1991 na cidade de Ibiaçá – Rio Grande Do Sul/Brasil, iniciou seu percurso musical aos 4 anos e desde muito cedo vive em um ambiente musical através da família de músicos, pai e irmão. Posteriormente através de grupos étnicos  do estado do Rio Grande do Sul, onde ainda muito jovem, internacionalizou a cultura de seu povo na Argentina, Uruguai, Paraguai e México atuando em festivais folclóricos. Inserido na música folclórica premiou concursos como compositor, instrumentista e arranjador. Graduado em violão clássico pela Universidade de Passo-Fundo com valor máximo e Mestre em Performance pela Escola Superior de Música de Lisboa/Portugal, foi solista convidado pela Orquestra Sinfônica da ESML no ano de 2016 em Portugal.",
     about_biografy_two :  "Dois álbuns em nome próprio, “Palavra de Fantoche”, que conta com o renomado músico português João Barradas, e seu mais recente trabalho ao lado do ascendentepianista açoriano João Bernardo, intitulado “Grey City”. Integra o grupo “MEDINEA” [MEDiterranean INcubator of Emerging Artists] fundado e dirigido pelo “Festival d’Aix-en-Provence” na realização de residências artísticas, que conecta músicos de várias partes do mundo sob direção e produção do músico belga Fabrizio Cassol. Desenvolvedor da ferramenta de ensino musical a distância “Nosso Folclore App”. Compositor da trilha do melhor curta brasileiro no “Independent Film Festival” no ano de 2020.",
     all_projects: 'See Projects',
@@ -19,7 +19,7 @@ export default {
     project_four_tittle: "'Concierto de Aranjuez' - Concerto para Violão e Orquestra",
     project_four_description: "Concierto de Aranjuez - Augusto Baschera & Orquestra Sinfónica - Escola Superior de Música de Lisboa",
     contact_phone : 'Phone',
-    contact_email : "augustobaschera@hotmail.com",
+    contact_email : "contact@augustobaschera.com",
     contact_number : "+351918307750",
     cannali_guitar1: "Augusto Baschera uses "
 
