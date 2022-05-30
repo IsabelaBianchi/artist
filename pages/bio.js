@@ -33,8 +33,13 @@ export default function Galerya() {
                         </div>
                         <div className="col-lg-6">
                             <p className="text-white-50">
-                            {t.about_biografy_one}
-                                {t.about_biografy_two}
+                            {t.about_biografy}
+                            </p>
+                            <p className="text-white-50">
+                            {t.about_biografy_1}
+                            </p>
+                            <p className="text-white-50">
+                            {t.about_biografy_2}
                             </p>
                         </div>
                     </div>

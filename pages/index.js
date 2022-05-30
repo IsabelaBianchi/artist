@@ -18,7 +18,7 @@ export default function Home() {
 
                 <Head>
                     <title>{t.main_tittle}</title>
-                    <meta name="description"  content="Jazz Music Guitarist Augusto Baschera" />
+                    <meta name="description"  content="Jazz Guitarist Augusto Baschera" />
                     <link rel="icon" type="image/png" sizes="32x32" href="/AB.png" />
                 </Head>
                 <NavBar />
@@ -56,7 +56,6 @@ export default function Home() {
                     <LinkNext href="/all_projects" locale={locale}><a className="btn btn-outline-light btn-sm ">{t.all_projects}</a></LinkNext>
                 </div>
             </section>
-
 
             <section className="contact-section bg-black" id="signup">
                 <div className="container px-4 px-lg-5">

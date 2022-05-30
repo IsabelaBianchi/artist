@@ -23,7 +23,7 @@ export default function Galery() {
             {images.map((img) =>
                 <Figure className="col-lg-4 col-sm-6 galeryphotos img-thumbnail" key={img}>
                     <Figure.Image
-                        alt={img}
+                        alt="augusto baschera jazz guitarist"
                         src={img}
                       
                     >
