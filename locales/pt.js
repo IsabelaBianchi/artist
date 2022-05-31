@@ -20,7 +20,7 @@ export default {
     project_three_tittle:"Augusto Baschera & Paulo Bernardino",
     project_three_description: "Augusto Baschera (violão/guitarra elétrica) e Paulo Bernardino (clarinete/clarinete baixo) relatam a imensidão do cotidiano brasileiro nestes instrumentos, soando como um sopro de vida que percorre diferentes lugares e acolhe as nuances que retratam de forma sonora o espírito de um país tão diverso.",
     project_four_tittle: "'Concierto de Aranjuez' - Concerto para Violão e Orquestra",
-    project_four_description: "Concierto de Aranjuez - Augusto Baschera & Orquestra Sinfónica - Escola Superior de Música de Lisboa",
+    project_four_description: "Concierto de Aranjuez é sem dúvidas a composição mais emblemática para a história do repertório escrito para violão e orquestra. Escrita em 1939, é seguramente o trabalho mais conhecido do compositor espanhol Joaquín Rodrigo, e devido ao seu êxito deu um reconhecimento internacional ao compositor. Considera-se esta obra musical como a mais interpretada em todo o mundo e, em particular, o seu segundo andamento, 'adagio', é singularmente popular e ja foi executado e reinventado por diversas formações e gêneros ainda nos dias atuais. No ano de 2016, Augusto foi solista convidado da Orquestra Sinfónica da ESML, em Lisboa- Portugal para uma série de concertos com esta obra",
     contact_phone : 'Fone',
     contact_email : "contact@augustobaschera.com",
     contact_number : "+351918307750",
