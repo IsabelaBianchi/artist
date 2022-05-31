@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram, faSpotify, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import en from '../locales/en'
 import pt from '../locales/pt'
 import { useRouter } from 'next/router'
@@ -18,6 +18,7 @@ export default function Footer() {
                     <div className="social d-flex justify-content-center">
 
                         <a className="mx-2" href="https://www.youtube.com/channel/UCO-RAD7pnuGJDXODein96cQ"><FontAwesomeIcon icon={faYoutube} /></a>
+                        <a className="mx-2" href="https://open.spotify.com/artist/0TtNm2GzxTYki2zQTLOiVE"><FontAwesomeIcon icon={faSpotify} /></a>
                         <a className="mx-2" href="https://www.instagram.com/augustobaschera/"><FontAwesomeIcon icon={faInstagram} /></a>
                         <a className="mx-2" href="https://www.facebook.com/augusto.baschera"><FontAwesomeIcon icon={faFacebook} /></a>
 
