@@ -38,9 +38,6 @@ export default function Galerya() {
                             <p className="text-white-50">
                             {t.about_biografy_1}
                             </p>
-                            <p className="text-white-50">
-                            {t.about_biografy_2}
-                            </p>
                         </div>
                     </div>
                 </div>
