@@ -4,7 +4,7 @@ export default {
     about: 'Augusto Baschera é um músico relevante da nova geração da Música Brasileira, que propõe um novo enredo entre o instrumento e a composição.',
     about_biografy : "Nascido no Brasil, desde cedo vive em um ambiente musical por ser de uma família de músicos. É Licenciado em violão clássico pela Universidade de Passo-Fundo com valor máximo e Mestre em guitarra pela Escola Superior de Música de Lisboa/Portugal. Foi solista convidado pela Orquestra Sinfónica da ESML em 2016 em Portugal. Augusto é membro do grupo MEDINEA, fundado e dirigido pelo Festival d'Aix-en-Provence (França).",
     about_biografy_1: "Três álbuns em nome próprio, “Palavra de Fantoche”, que conta com o renomado músico português João Barradas, o segundo trabalho ao lado do ascendente pianista açoriano João Bernardo, intitulado 'Grey City', e o mais recente trabalho intitulado 'Tempos e Lugares' também ao lado do pianista João Bernardo.",
-    about_biografy_2: "O próximo trabalho será lançado no ano de 2023 e conta com a produção do músico/baixista brasileiro Frederico Heliodoro, e conta com uma banda de referências no cenário do Jazz atual: João Barradas, João Bernardo, Ricardo Toscano e Vini Baschera, para além de Frederico Heliodoro que atualmente ja é uma referência no cenário mundial.",
+    about_biografy_2: "Vencedor de concursos de música brasileira, como compositor, instrumentista e arranjador. Compositor da trilha do filme 'MARIA', melhor curta no “Independent Film Festival” no ano de 2020.",
     all_projects : 'Projetos',
     menu_about: 'Sobre',
     menu_projects : 'Projetos',

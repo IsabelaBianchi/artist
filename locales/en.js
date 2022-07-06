@@ -4,7 +4,7 @@ export default {
     about: 'Augusto Baschera is a relevant musician of the new generation of Brazilian Music, who proposes a new plot between the instrument and the composition.',
     about_biografy : "Born in Brazil, from an early age he lives in a musical environment for being from a family of musicians. He holds a degree in classical guitar from the University of Passo-Fundo with maximum value and a Master's degree in guitar from the Escola Superior de Música de Lisboa/Portugal. He was a guest soloist by the ESML Symphony Orchestra in 2016 in Portugal. Augusto is a member of the MEDINEA group, founded and directed by the Festival d'Aix-en-Provence (France).",
     about_biografy_1: "Three albums in his own name, “Palavra de Fantoche”, which features the renowned Portuguese musician João Barradas, the second work alongside the rising Azorean pianist João Bernardo, entitled 'Grey City', and the most recent work entitled 'Tempos e Lugares ' also alongside pianist João Bernardo.",
-    about_biografy_2: "The next work will be released in 2023 and features the production of the Brazilian musician/bassist Frederico Heliodoro, and has a band of references in the current jazz scene: João Barradas, João Bernardo, Ricardo Toscano and Vini Baschera, in addition to Frederico Heliodoro who is currently a reference on the world stage.",
+    about_biografy_2: "Winner of Brazilian music competitions, as a composer, instrumentalist and arranger. Composer of the soundtrack for the film 'MARIA', best short at the “Independent Film Festival” in 2020.",
     all_projects: 'See Projects',
     menu_about: 'About',
     menu_projects : 'Projects',
