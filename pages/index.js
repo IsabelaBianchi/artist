@@ -77,7 +77,7 @@ export default function Home() {
                                     <i className="fas fa-envelope text-primary mb-2"></i>
                                     <h4 className="text-uppercase m-0">{t.contact_phone} / Whatsapp</h4>
                                     <hr className="my-4 mx-auto" />
-                                    <div className="small text-black-50"><a href="#!">{t.contact_number}</a></div>
+                                    <div className="small text-black-50"><a href="https://wa.me/+351918307750">{t.contact_number}</a></div>
                                 </div>
                             </div>
                         </div>
