@@ -11,7 +11,7 @@ export default {
     menu_contact: 'Contact',
     menu_galery: 'Gallery',
     menu_biography: 'About',
-    project_tl_tittle: 'Tempos de Lugares',
+    project_tl_tittle: 'Tempos e Lugares',
     project_tl_description: "Released in May 2022, 'Tempos e Lugares' is the second album by the duo Augusto Baschera & João Bernardo. This album results from the recording of a live concert at Teatro Micaelense / São Miguel - Azores. The compositions that make up this recording echo traits explored by the duo on their first album, 'Grey City', which represent and mark the duo's characteristic identity, such as the unison melodies that are guided by an inner voice endowed with lyricism. In this new work, the duo combines its essence with a rhythmic vigor that emphasizes its traditions and influences and at the same time reflects the universality of its music.", 
     project_one_tittle: "Grey City",
     project_one_description:  "The “Grey City” album  by Augusto Baschera and João Bernardo is mainly based on the timbral fusion of this unique formation. The album is influenced by popular, classical and jazz music. The music comes from an intimate voice and develops through a modern language, in order to portray the juxtaposition of different realities. Augusto Baschera and João Bernardo make “Grey City” a way to question their musical conduct in current times.",   

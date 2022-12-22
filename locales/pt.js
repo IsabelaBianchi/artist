@@ -11,7 +11,7 @@ export default {
     menu_contact: 'Contacto',
     menu_galery: 'Galeria',
     menu_biography: 'Sobre',
-    project_tl_tittle: 'Tempos de Lugares',
+    project_tl_tittle: 'Tempos e Lugares',
     project_tl_description: 'Lançado em maio de 2022, "Tempos e Lugares" é o segundo disco do duo Augusto Baschera & João Bernardo. Este álbum resulta da gravação de um concerto ao vivo no Teatro Micaelense / São Miguel - Açores. Nas composições que integram esta gravação ecoam traços explorados pelo duo no primeiro álbum , "Grey City", que representam e marcam a identidade característica da dupla como por exemplos as melodias em uníssono que são guiadas por uma voz interior dotada de lirismo. Neste novo trabalho  o duo junta a sua essência com um vigor rítmico que vinca as suas tradições e influências e ao mesmo tempo reflete a universalidade da sua música.',
     project_one_tittle: "Grey City",
     project_one_description:  "O álbum Grey City de Augusto Baschera  e João Bernardo  tem como mote principal a fusão tímbrica desta formação singular. O disco apresenta influência da música popular, erudita e jazz. A música surge a partir de uma voz intimista e desenvolve-se através de uma linguagem moderna, de modo a retratar a justaposição de realidades distintas. Augusto Baschera e João Bernardo fazem de “Grey City” um veículo de discurso que questiona as suas condutas musicais em tempos atuais.",
@@ -26,8 +26,8 @@ export default {
     contact_number : "+351918307750",
     cannali_guitar1: "Augusto Baschera usa ",
     cannali_guitar2: "Canalli Guitars ",
-    
-    
+
+
 
 
 }
