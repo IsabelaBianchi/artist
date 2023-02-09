@@ -82,26 +82,26 @@ export default function AllProjects() {
                     </div>
 
                     <div className="row gx-0 mb-4 mb-lg-5 align-items-center">
-                        <div className="col-xl-4 col-lg-4"><img className="img-fluid mb-3 mb-lg-0" src="/baschera_bernardino.JPEG" alt="Baschera_Bernardino" /></div>
+                        <div className="col-xl-4 col-lg-4"><img className="img-fluid mb-3 mb-lg-0" src="/baschera_bernardino.jpeg" alt="Baschera_Bernardino" /></div>
                         <div className="col-xl-8 col-lg-7">
                             <div className="featured-text text-center text-lg-left">
 
                                 <h4 className="text-white">{t.project_three_tittle}</h4>
                                 <div className="row justify-content-center">
-                                    <a className="text-white col-sm-1-5 col-3" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwisz7a0ipn3AhWhIbkGHcOjDbMQwqsBegQIAhAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxnqynDaP3hk&usg=AOvVaw2CJHIIkIG-eFVRaqjeI81E"><FontAwesomeIcon icon={faYoutube} /></a>
+                                    <a className="text-white col-sm-1-5 col-3" href="https://www.youtube.com/watch?v=0GCyS5c-DO4"><FontAwesomeIcon icon={faYoutube} /></a>
                                 </div>
                                 <p className="text-white mt-2 mb-0 text-justify projects-p-text">{t.project_three_description}</p>
                             </div>
                         </div>
                     </div>
                     <div className="row gx-0 mb-4 mb-lg-5 align-items-center">
-                        <div className="col-xl-4 col-lg-4"><img className="img-fluid mb-3 mb-lg-0" src="/galery/4.png" alt="Baschera_Bernardino" /></div>
+                        <div className="col-xl-4 col-lg-4"><img className="img-fluid mb-3 mb-lg-0" src="/galery/4.png" alt="aranjuez" /></div>
                         <div className="col-xl-8 col-lg-7">
                             <div className="featured-text text-center text-lg-left">
 
                                 <h4 className="text-white">{t.project_four_tittle}</h4>
                                 <div className="row justify-content-center">
-                                    <a className="text-white col-sm-1-5 col-3" href="https://www.youtube.com/watch?v=0GCyS5c-DO4"><FontAwesomeIcon icon={faYoutube} /></a>
+                                    <a className="text-white col-sm-1-5 col-3" href="https://www.youtube.com/watch?v=Fi-B3nDIBkI"><FontAwesomeIcon icon={faYoutube} /></a>
                                 </div>
                                 <p className="text-white mt-2 mb-0 text-justify projects-p-text">{t.project_four_description}</p>
                             </div>
