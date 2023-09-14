@@ -179,7 +179,7 @@ export default function AllProjects() {
                   </a>
                 </div>
                 <p className="text-white mt-2 mb-0 text-justify projects-p-text">
-                  {t.project_four_description}
+                  {t.project_four_description} 
                 </p>
               </div>
             </div>
