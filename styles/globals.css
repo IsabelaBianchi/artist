@@ -4525,7 +4525,6 @@ textarea.form-control-lg {
 }
 .navbar-expand .navbar-nav .nav-link {
   padding-right: 0.5rem;
-  padding-left: 0.5rem;
 }
 .navbar-expand .navbar-nav-scroll {
   overflow: visible;
@@ -11629,7 +11628,7 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  padding: 15rem 0;
+  padding-top: 15rem;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/galery/07.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -11693,9 +11692,26 @@ body {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/recorte.jpg");
 
 }
+
 .about-section p {
   margin-bottom: 10rem;
 }
+
+.baschera-bernardo-section {
+  padding-top: 15rem;
+ }
+.baschera-bernardo-section p {
+  margin-bottom: 1rem;
+}
+
+.baschera-bernardino-section {
+  padding-top: 15rem;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/baschera_bernardino.jpeg");
+}
+.baschera-bernardino-section p {
+  margin-bottom: 1rem;
+}
+
 
 .project-page {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";

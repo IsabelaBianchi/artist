@@ -2,9 +2,13 @@ export default {
     main_tittle: 'Augusto Baschera',
     main_title_desc: 'Jazz Guitarist',
     about: 'Augusto Baschera é um músico relevante da nova geração da Música Brasileira, que propõe um novo enredo entre o instrumento e a composição.',
-    about_biografy : "Nascido no Brasil, desde cedo vive em um ambiente musical por ser de uma família de músicos. É Licenciado em violão clássico pela Universidade de Passo-Fundo com valor máximo e Mestre em guitarra pela Escola Superior de Música de Lisboa/Portugal. Foi solista convidado pela Orquestra Sinfónica da ESML em 2016 em Portugal. Augusto é membro do grupo MEDINEA, fundado e dirigido pelo Festival d'Aix-en-Provence (França).",
-    about_biografy_1: "Três álbuns em nome próprio, “Palavra de Fantoche”, que conta com o renomado músico português João Barradas, o segundo trabalho ao lado do ascendente pianista açoriano João Bernardo, intitulado 'Grey City', e o mais recente trabalho intitulado 'Tempos e Lugares' também ao lado do pianista João Bernardo.",
-    about_biografy_2: "Vencedor de concursos de música brasileira, como compositor, instrumentista e arranjador. Compositor da trilha do filme 'MARIA', melhor curta no “Independent Film Festival” no ano de 2020.",
+    about_biografy_1: 'Augusto Baschera, natural de Ibiaçá-RS, no sul do Brasil, iniciou sua jornada musical de forma notável aos 4 anos, imerso em uma família que respira música. Essa influência precoce desempenhou um papel fundamental em seu desenvolvimento artístico. A trajetória de Augusto é uma inspiradora jornada de dedicação, prática intensiva e paixão pela música, com o compromisso de transmitir emoção por meio de suas performances.',
+    about_biografy_2 : "Aos 14 anos, ainda jovem, ele internacionalizou sua música, levando-a a países como Argentina, Uruguai, Paraguai e México, onde participou de festivais folclóricos na América Latina. Em 2009, com apenas 17 anos, Augusto foi premiado em diversos concursos e festivais como compositor, instrumentista e arranjador, incluindo o Festival do Passo, Seara da Canção, Cante uma Canção em Vacaria e Canto de Luz",
+    about_biografy_3: "Em sua jornada acadêmica, Augusto Baschera obteve o grau de Bacharel em violão clássico, concluindo-o com a maior distinção. Além disso, ele conquistou o título de Mestre em Performance pela Escola Superior de Música de Lisboa, Portugal. Sua excelência musical o levou a ser solista convidado da 'Orquestra Sinfônica ESML' em Lisboa no ano de 2016",
+    about_biografy_4: "Como compositor e instrumentista, Augusto lançou três álbuns em seu nome. Seu primeiro álbum, 'Palavra de Fantoche', conta com a participação do renomado músico internacional, João Barradas. Seu segundo trabalho, 'Grey City', apresenta colaborações com o pianista açoriano João Bernardo. Seu álbum mais recente, 'Tempos e Lugares', tem sido aclamado pela crítica internacional de música improvisada e contemporânea, recebendo reconhecimento de publicações como Simply Jazz Talk, Jazziz, All About Jazz, Jazz pt, Caravan e Latin Jazz",
+    about_biografy_5: "Augusto Baschera é membro do 'MEDINEA' (MEDiterranean INcubator of Emerging Artists), sob a direção do 'Festival d'Aix-en-Provence' na França, onde participa de residências artísticas e digressões pelo continente europeu. Além disso, ele teve a honra de compor a trilha sonora do filme 'MARIA', que recebeu o prêmio de 'melhor curta' brasileiro no 'Independent Film Festival'.",
+    about_biografy_6:"Outro aspecto notável de seu trabalho é o desenvolvimento do aplicativo e ferramenta de ensino musical a distância chamada 'Nosso Folclore App', que foi premiado no 'Edital Criação e Formação Diversidade das Culturas'.",
+    about_biografy_7:"A música de Augusto Baschera já ecoou em países como Argentina, Brasil, Canadá, Espanha, França e Inglaterra, Itália e Portugal. Ele teve a oportunidade de se apresentar nas mais prestigiadas salas de concerto, em cidades como Buenos Aires, Montevideo, Zacatecas, Lisboa, Madrid, Barcelona, Salamanca, Sardenha, Paris e Londres, marcando assim sua presença no cenário musical",
     all_projects : 'Projetos',
     menu_about: 'Sobre',
     menu_projects : 'Projetos',
@@ -26,8 +30,9 @@ export default {
     contact_number : "+351918307750",
     cannali_guitar1: "Augusto Baschera usa ",
     cannali_guitar2: "Canalli Guitars ",
-
-
-
+    augusto_and_paulo: "Augusto Baschera (acoustic guitar/electric guitar) and Paulo Bernardino (clarinet/bass clarinet) bring the vastness of Brazilian daily life through their instruments, sounding like a breath of life that travels through different places and embraces the nuances that portray, in sound, the spirit of such a diverse country.",
+    baschera_and_bernardo_1: "Augusto Baschera is a relevant musician of the new generation of Brazilian music, who proposes a new plot between the instrument and composition.",
+    baschera_and_bernardo_2: "João Bernardo is a talented pianist from São Miguel, Azores. The duo met in Lisbon at the 'Escola Superior de Música de Lisboa'.",
+    baschera_and_bernardo_3: "Together, they have two albums where they combine their essence, emphasizing their traditions and influences while reflecting the universality of their music. The duo brings to the stage affinity, fluidity, complicity, and energy."
 
 }
