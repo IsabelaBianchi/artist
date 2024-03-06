@@ -22,7 +22,7 @@ export default function AllProjects() {
         <Head>
           <title>{main_tittle}</title>
           <meta name="description" content="Jazz Guitarist Augusto Baschera" />
-          <link rel="icon" type="image/png" sizes="32x32" href="/AB.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/augusto_baschera_1.jpg" />
         </Head>
         <NavBar />
 
@@ -41,8 +41,34 @@ export default function AllProjects() {
             <div className="col-xl-4 col-lg-4">
               <img
                 className="img-fluid mb-3 mb-lg-0"
+                src="/travessia.png"
+                alt="travessia"
+              />
+            </div>
+            <div className="col-xl-8 col-lg-7">
+              <div className="featured-text text-center text-lg-left">
+                <h4 className="text-white">{t.project_five_tittle}</h4>
+                <div className="row justify-content-center">
+                  <a
+                    className="text-white col-sm-1-5 col-3"
+                    href="https://www.youtube.com/watch?v=w1CSGxQXFyk"
+                  >
+                    <FontAwesomeIcon icon={faYoutube} />
+                  </a>
+                </div>
+
+                <p className="text-white mt-2 mb-0 text-justify projects-p-text">
+                  {t.project_five_description}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row gx-0 mb-4 mb-lg-5 align-items-center">
+            <div className="col-xl-4 col-lg-4">
+              <img
+                className="img-fluid mb-3 mb-lg-0"
                 src="/tempos_e_lugares.jpg"
-                alt="Grey City"
+                alt="tempos e lugares"
               />
             </div>
             <div className="col-xl-8 col-lg-7">

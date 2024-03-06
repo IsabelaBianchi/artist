@@ -20,7 +20,7 @@ export default function Galerya(){
                 <Head>
                     <title>{main_tittle}</title>
                     <meta name="description" content="Jazz Musician Guitarist Augusto Baschera" />
-                    <link rel="icon" type="image/png" sizes="32x32" href="/AB.png" />
+                    <link rel="icon" type="image/png" sizes="32x32" href="/augusto_baschera_1.jpg" />
                 </Head>
                 <NavBar />
 

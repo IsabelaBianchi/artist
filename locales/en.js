@@ -25,6 +25,8 @@ export default {
     project_three_description: "Augusto Baschera (guitar/eletric guitar) and Paulo Bernardino (clarinet/bass clarinet) report the immensity of Brazilian daily life in these instruments, sounding like a breath of life that travels through different places and welcomes the nuances that portray in a sonorous way the spirit of this such diverse country.",
     project_four_tittle: "'Concierto de Aranjuez' - Concert for Guitar and Orchestra",
     project_four_description: "Concierto de Aranjuez is without a doubt the most emblematic composition in the history of the repertoire written for guitar and orchestra. Written in 1939, it is surely the best-known work of the Spanish composer Joaquín Rodrigo, and due to its success it has given the composer international recognition. This musical work is considered the most performed in the world and, in particular, its second movement, 'adagio', is uniquely popular and has already been performed and reinvented by different formations and genres even today. In 2016, Augusto was a guest soloist of the ESML Symphony Orchestra, in Lisbon-Portugal, for a series of concerts with this work.",
+    project_five_tittle: 'Travessia',
+    project_five_description: '"Travessia" is a creative partnership between Brazilian guitarist Augusto Baschera (Rio Grande do Sul) and Azorean pianist João Bernardo (São Miguel). This project aims to study, recreate, and perform the musical folklore originating from the Azores, also present in the southern region of Brazil. It is sustained by the reworking and adaptation of this music into instrumental music, with a focus on improvised music and jazz.',
     contact_phone : 'Phone',
     contact_email : "contact@augustobaschera.com",
     contact_number : "+351918307750",

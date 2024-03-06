@@ -25,6 +25,8 @@ export default {
     project_three_description: "Augusto Baschera (violão/guitarra elétrica) e Paulo Bernardino (clarinete/clarinete baixo) relatam a imensidão do cotidiano brasileiro nestes instrumentos, soando como um sopro de vida que percorre diferentes lugares e acolhe as nuances que retratam de forma sonora o espírito de um país tão diverso.",
     project_four_tittle: "'Concierto de Aranjuez' - Concerto para Violão e Orquestra",
     project_four_description: "Concierto de Aranjuez é sem dúvidas a composição mais emblemática para a história do repertório escrito para violão e orquestra. Escrita em 1939, é seguramente o trabalho mais conhecido do compositor espanhol Joaquín Rodrigo, e devido ao seu êxito deu um reconhecimento internacional ao compositor. Considera-se esta obra musical como a mais interpretada em todo o mundo e, em particular, o seu segundo andamento, 'adagio', é singularmente popular e ja foi executado e reinventado por diversas formações e gêneros ainda nos dias atuais. No ano de 2016, Augusto foi solista convidado da Orquestra Sinfónica da ESML, em Lisboa- Portugal para uma série de concertos com esta obra.",
+    project_five_tittle: 'Travessia',
+    project_five_description: 'Travessia é uma parceria de criação entre o guitarrista brasileiro Augusto Baschera (Rio Grande do Sul) e o  pianista açoriano João Bernardo (São Miguel). Este projeto tem como objetivo estudar, recriar e executar o folclore musical oriundo dos Açores também presente na região sul do Brasil, sustentado na reelaboração e adaptação dessa música para a música instrumental, com foco na música improvisada e no jazz.',
     contact_phone : 'Fone',
     contact_email : "contact@augustobaschera.com",
     contact_number : "+351918307750",
