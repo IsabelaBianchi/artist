@@ -9,7 +9,7 @@ export default {
     about_biografy_5: "Augusto Baschera is a member of 'MEDINEA' (MEDiterranean INcubator of Emerging Artists), under the direction of the 'Festival d'Aix-en-Provence' in France, where he participates in artistic residencies and tours across the European continent. Additionally, he had the honor of composing the soundtrack for the film 'MARIA,' which received the award for the 'best Brazilian short film' at the 'Independent Film Festival.'",
     about_biografy_6: "Another notable aspect of his work is the development of the distance music teaching application and tool called 'Nosso Folclore App,' which was awarded in the 'Edital Criação e Formação Diversidade das Culturas' (Cultural Diversity Creation and Training Announcement).",
     about_biografy_7: "Augusto Baschera's music has already resonated in countries such as Argentina, Brazil, Canada, Spain, France, England, Italy, and Portugal. He has had the opportunity to perform in the most prestigious concert halls in cities like Buenos Aires, Montevideo, Zacatecas, Lisbon, Madrid, Barcelona, Salamanca, Sardinia, Paris, and London, thus leaving his mark on the music scene.",
-    all_projects: 'See Projects',
+    all_projects: 'Projects',
     menu_about: 'About',
     menu_projects : 'Projects',
     menu_contact: 'Contact',

@@ -41,7 +41,7 @@ export default function AllProjects() {
             <div className="col-xl-4 col-lg-4">
               <img
                 className="img-fluid mb-3 mb-lg-0"
-                src="/travessia.png"
+                src="/travessia.webp"
                 alt="travessia"
               />
             </div>
@@ -67,7 +67,7 @@ export default function AllProjects() {
             <div className="col-xl-4 col-lg-4">
               <img
                 className="img-fluid mb-3 mb-lg-0"
-                src="/tempos_e_lugares.jpg"
+                src="/tempos_e_lugares.webp"
                 alt="tempos e lugares"
               />
             </div>
@@ -99,7 +99,7 @@ export default function AllProjects() {
             <div className="col-xl-4 col-lg-4">
               <img
                 className="img-fluid mb-3 mb-lg-0"
-                src="/grey_city.jpeg"
+                src="/grey_city.webp"
                 alt="Grey City"
               />
             </div>
@@ -164,7 +164,7 @@ export default function AllProjects() {
             <div className="col-xl-4 col-lg-4">
               <img
                 className="img-fluid mb-3 mb-lg-0"
-                src="/baschera_bernardino.jpeg"
+                src="/baschera_bernardino.webp"
                 alt="Baschera_Bernardino"
               />
             </div>
