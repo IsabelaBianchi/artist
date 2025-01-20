@@ -51,6 +51,7 @@
   --bs-danger-rgb: 161, 100, 104;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
+  --bs-light-orange-rgb: 180, 100, 50;
   --bs-black-rgb: 0, 0, 0;
   --bs-white-rgb: 255, 255, 255;
   --bs-white-rgb: 255, 255, 255;
@@ -4112,6 +4113,7 @@ textarea.form-control-lg {
   color: #495057;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
+  font-weight: bold;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -4180,7 +4182,7 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 0.8rem;
-  font-size: 1rem;
+  font-size: 3rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -5748,6 +5750,7 @@ textarea.form-control-lg {
 .modal-title {
   margin-bottom: 0;
   line-height: 1.5;
+  color: white;
 }
 
 .modal-body {
@@ -5761,7 +5764,7 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   flex-shrink: 0;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 0.75rem;
   border-top: 1px solid #dee2e6;
   border-bottom-right-radius: calc(0.3rem - 1px);
@@ -6728,7 +6731,14 @@ textarea.form-control-lg {
   left: 0;
   z-index: 1030;
 }
-
+.div-bottom {
+  position: fixed; 
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
 .sticky-top {
   position: -webkit-sticky;
   position: sticky;
@@ -7576,6 +7586,13 @@ textarea.form-control-lg {
   margin-bottom: 3rem !important;
 }
 
+.mb-6 {
+  margin-bottom: 10rem !important;
+}
+.mb-8 {
+  margin-bottom: 15rem !important;
+}
+
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -8045,6 +8062,11 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-orange {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-orange-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
@@ -10048,6 +10070,10 @@ textarea.form-control-lg {
     padding-top: 20rem !important;
   }
 
+  .pt-lg-8 {
+    padding-top: 30rem !important;
+  }
+
   .pe-lg-0 {
     padding-right: 0 !important;
   }
@@ -11515,7 +11541,7 @@ body {
 }
 #mainNav .navbar-brand {
   color: #000;
- 
+
   padding: 0.9rem 0;
 }
 #mainNav .navbar-nav .nav-item:hover {
@@ -11526,6 +11552,21 @@ body {
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
+}
+
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.z-20 {
+  position: relative;
+  z-index: 20;
+} 
+
+.contact-section{
+  position: relative;
+  z-index: 20;  
 }
 
 .masthead h1, .masthead .h1 {
@@ -11549,11 +11590,14 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.85);
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #mainNav .navbar-brand:hover {
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:hover {
@@ -11598,16 +11642,17 @@ body {
 }
 
 .masthead {
-  position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
-  padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/augusto_baschera_7.jpg");
+  padding: 1rem 0;
+  transform: scale(1.5);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%), url("/augusto_baschera_main.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+
 }
 
 .proje{
@@ -11615,7 +11660,7 @@ body {
   width: 100%;
   height: auto;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/galery/04.jpeg");
+  background: url("/augusto-baschera-2.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11688,13 +11733,14 @@ body {
 }
 
 .about-section {
-  padding-top: 15rem;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/recorte.jpg");
-
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.9) 75%, #000 100%), url("/augusto_baschera_play.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .about-section p {
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
 }
 
 .baschera-bernardo-section {
@@ -11714,14 +11760,13 @@ body {
 
 
 .project-page {
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-          background-clip: text;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-right: 0.8rem;
+  font-size: 3rem;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #F5F5F5;
+
 }
 .projects-p-text{
   font-size: 0.8rem;
@@ -11741,7 +11786,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #445663;
+    border-left: 0.5rem solid #ddd9ce;
   }
 }
 .projects-section .project-text {

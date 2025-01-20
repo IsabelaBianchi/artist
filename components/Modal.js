@@ -1,27 +1,52 @@
-import { Modal, Figure } from "react-bootstrap";
+import React, { useState, useEffect } from "react";
+import { Modal, Button } from "react-bootstrap";
+import Image from "react-bootstrap/Image";
 
-export function PhotoModal(props) {
+function MyModal() {
+  const [show, setShow] = useState(false);
+
+  // Função para abrir o modal
+  const handleShow = () => setShow(true);
+
+  // Função para fechar o modal
+  const handleClose = () => setShow(false);
+
+  // Mostrar o modal após 2 segundos
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      handleShow();
+    }, 2000);
+
+    // Limpar o timer ao desmontar o componente
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <>
-      <Modal {...props} size="lg"
-        aria-labelledby="contained-modal-title-vcenter"
-        className="modal-dialog-centered"
-        >
+      <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-
+          <Modal.Title>Pré Save My New Album</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-    
-          <Figure className="">
-            <Figure.Image
-            
-              alt={props.photo}
-              src={props.photo}
-            />
-          </Figure>
+          <Image src="apocrifo.PNG" rounded className="img-fluid" />
         </Modal.Body>
+        <Modal.Footer>
+          <Button
+            variant="dark"
+            onClick={() => {
+              handleClose(); 
+              window.open(
+                "https://show.co/5NbQmV2",
+                "_blank"
+              );
+            }}
+          >
+            Pre-save{" "}
+          </Button>
+        </Modal.Footer>
       </Modal>
     </>
   );
 }
+
+export default MyModal;

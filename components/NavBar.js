@@ -54,7 +54,7 @@ export default function NavBar() {
 
         <Container>
 
-          <Navbar.Brand className="nav-item navbar-brand" href="/">Home</Navbar.Brand>
+          <Navbar.Brand className="nav-item navbar-brand" href="/">Augusto Baschera</Navbar.Brand>
           <Button className="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" />
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <Nav className="navbar-nav ms-auto  ">
@@ -65,10 +65,6 @@ export default function NavBar() {
 
               <LinkNext href="/all_projects" locale={locale}>
                 <Nav.Link className="nav-item" href="/all_projects">{t.all_projects}</Nav.Link>
-              </LinkNext>
-
-              <LinkNext href="/galery" locale={locale}>
-                <Nav.Link className="nav-item" href="/galery">{t.menu_galery}</Nav.Link>
               </LinkNext>
 
               <LinkNext href="/#signup" locale={locale}>

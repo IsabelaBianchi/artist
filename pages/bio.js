@@ -28,7 +28,7 @@ export default function Galerya() {
       <div className="bio">
         <div className="container px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content">
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <p className="text-white-50"></p>
             </div>
             <div className="col-lg-6">
