@@ -32,9 +32,9 @@ export default function Home() {
       <section className="masthead" />
 
       <section className="z-20 about-section text-center bg-light" id="about">
-        <div className="px-4 mt-sm-8 px-lg-5 pt-lg-6 d-flex h-100 align-items-center justify-content-center justify-content-center ">
+        <div className="px-4 px-lg-5 pt-lg-6 d-flex h-100 align-items-center justify-content-center justify-content-center ">
           <div className="col-6">
-            <p className="text-white-50">{t.about}</p>
+            <p className="text-white-50 mt-5">{t.about}</p>
           </div>
         </div>
         <div>
