@@ -5721,7 +5721,7 @@ textarea.form-control-lg {
   z-index: 1050;
   width: 100vw;
   height: 100vh;
-  background-color: #000;
+  background-color: #101214;
 }
 .modal-backdrop.fade {
   opacity: 0;
@@ -11646,7 +11646,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 1rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%), url("/augusto_baschera_main.JPG");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%), url("/augusto-baschera-1.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11673,7 +11673,7 @@ body {
   width: 100%;
   height: auto;
   padding-top: 15rem;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/galery/07.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/07.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11732,7 +11732,7 @@ body {
 }
 
 .about-section {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.9) 75%, #000 100%), url("/augusto_baschera_play.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.9) 75%, #000 100%), url("/augusto_baschera_9501.JPG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

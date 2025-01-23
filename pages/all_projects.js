@@ -45,7 +45,7 @@ export default function AllProjects() {
             <div className="col-xl-4 col-lg-4">
               <img
                 className="img-fluid mb-3 mb-lg-0"
-                src="/apocrifo.PNG"
+                src="/apocrifo.webp"
                 alt="apocrifo"
               />
             </div>
@@ -226,7 +226,7 @@ export default function AllProjects() {
             <div className="col-xl-4 col-lg-4">
               <img
                 className="img-fluid mb-3 mb-lg-0"
-                src="/galery/4.png"
+                src="/concierto_aranjuez.png"
                 alt="aranjuez"
               />
             </div>
