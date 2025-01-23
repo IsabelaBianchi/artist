@@ -28,7 +28,7 @@ function MyModal() {
           <Modal.Title>Pré Save My New Album</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Image src="apocrifo.PNG" rounded className="img-fluid" />
+          <Image src="apocrifo.webp" rounded className="img-fluid" />
         </Modal.Body>
         <Modal.Footer>
           <Button
