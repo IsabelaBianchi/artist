@@ -33,7 +33,7 @@ export default function Home() {
 
       <section className="z-20 about-section text-center bg-light" id="about">
         <div className="px-4 px-lg-5 pt-lg-6 d-flex h-100 align-items-center justify-content-center justify-content-center ">
-          <div className="col-6">
+          <div className="col-6 mt-8">
             <p className="text-white-50 mt-5">{t.about}</p>
           </div>
         </div>

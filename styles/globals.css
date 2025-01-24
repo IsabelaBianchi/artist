@@ -7527,6 +7527,9 @@ textarea.form-control-lg {
 .mt-5 {
   margin-top: 3rem !important;
 }
+.mt-8 {
+  margin-top: 10rem !important;
+}
 
 
 .mt-auto {
@@ -11710,6 +11713,10 @@ body {
     font-size: 4rem;
     line-height: 4rem;
   }
+  .mt-8 {
+    margin-top: 3rem !important;
+  }
+  
 }
 @media (min-width: 992px) {
   .masthead {
@@ -11732,7 +11739,7 @@ body {
 }
 
 .about-section {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.9) 75%, #000 100%), url("/augusto_baschera_9501.JPG");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.9) 75%, #000 100%), url("/augusto_baschera_08.JPG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
