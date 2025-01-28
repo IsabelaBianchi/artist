@@ -15,7 +15,7 @@ function MyModal() {
   useEffect(() => {
     const timer = setTimeout(() => {
       handleShow();
-    }, 2000);
+    }, 3000);
 
     // Limpar o timer ao desmontar o componente
     return () => clearTimeout(timer);
