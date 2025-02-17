@@ -25,7 +25,7 @@ function MyModal() {
     <>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Pré Save My New Album</Modal.Title>
+          <Modal.Title>My New Album is Out NOW!</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Image src="apocrifo.webp" rounded className="img-fluid" />
@@ -36,12 +36,12 @@ function MyModal() {
             onClick={() => {
               handleClose(); 
               window.open(
-                "https://show.co/5NbQmV2",
+                "https://open.spotify.com/intl-pt/album/7f6j7qX2niKWEy8Dj2j2KC?si=37YHa2QpQmmPQoGY0byINQ",
                 "_blank"
               );
             }}
           >
-            Pre-save{" "}
+            Listen on Spotify{" "}
           </Button>
         </Modal.Footer>
       </Modal>
