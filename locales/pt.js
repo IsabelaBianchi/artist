@@ -30,7 +30,7 @@ export default {
     project_five_tittle: 'Travessia',
     project_five_description: 'Travessia é uma parceria de criação entre o guitarrista brasileiro Augusto Baschera (Rio Grande do Sul) e o  pianista açoriano João Bernardo (São Miguel). Este projeto tem como objetivo estudar, recriar e executar o folclore musical oriundo dos Açores também presente na região sul do Brasil, sustentado na reelaboração e adaptação dessa música para a música instrumental, com foco na música improvisada e no jazz.',
     contact_phone : 'Fone',
-    contact_email : "augustobaschera@hotmail.com",
+    contact_email : "contact@augustobaschera.com",
     contact_number : "+351918307750",
     cannali_guitar1: "Augusto Baschera usa ",
     cannali_guitar2: "Canalli Guitars ",

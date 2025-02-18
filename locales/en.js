@@ -30,7 +30,7 @@ export default {
     project_five_tittle: 'Travessia',
     project_five_description: '"Travessia" is a creative partnership between Brazilian guitarist Augusto Baschera (Rio Grande do Sul) and Azorean pianist João Bernardo (São Miguel). This project aims to study, recreate, and perform the musical folklore originating from the Azores, also present in the southern region of Brazil. It is sustained by the reworking and adaptation of this music into instrumental music, with a focus on improvised music and jazz.',
     contact_phone : 'Phone',
-    contact_email : "augustobaschera@hotmail.com",
+    contact_email : "contact@augustobaschera.com",
     contact_number : "+351918307750",
     cannali_guitar1: "Augusto Baschera uses ",
     augusto_and_paulo: "Augusto Baschera (acoustic guitar/electric guitar) and Paulo Bernardino (clarinet/bass clarinet) bring the vastness of Brazilian daily life through their instruments, sounding like a breath of life that travels through different places and embraces the nuances that portray, in sound, the spirit of such a diverse country.",
