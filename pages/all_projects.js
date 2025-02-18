@@ -55,13 +55,13 @@ export default function AllProjects() {
                 <div className="row justify-content-center">
                   <a
                     className="text-white col-sm-1-5 col-3"
-                    href="https://open.spotify.com/album/48nwdW8KUjJyePnTBVtxiT"
+                    href="https://open.spotify.com/intl-pt/album/7f6j7qX2niKWEy8Dj2j2KC?si=o-mST473R6qeDClyHAoTrw"
                   >
                     <FontAwesomeIcon icon={faSpotify} />
                   </a>
                   <a
                     className="text-white col-sm-1-5 col-3"
-                    href="https://www.youtube.com/watch?v=eRudKpMv_SI"
+                    href="https://www.youtube.com/watch?v=AwKpSpWoifo&list=OLAK5uy_nIBuoFwDN1iuI4ptF6Q0t8HaFPTGIe6Ao"
                   >
                     <FontAwesomeIcon icon={faYoutube} />
                   </a>
@@ -227,7 +227,7 @@ export default function AllProjects() {
               <img
                 className="img-fluid mb-3 mb-lg-0"
                 src="/concierto_aranjuez.png"
-                alt="aranjuez"
+                alt="concierto de aranjuez"
               />
             </div>
             <div className="col-xl-8 col-lg-7">
