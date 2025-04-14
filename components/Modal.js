@@ -12,7 +12,7 @@ function MyModal() {
   useEffect(() => {
     const timer = setTimeout(() => {
       handleShow();
-    }, 1500);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);

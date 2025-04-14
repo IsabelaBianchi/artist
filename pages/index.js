@@ -27,6 +27,12 @@ export default function Home() {
           />
           <link
             rel="preload"
+            href="/augusto-baschera-1.webp"
+            as="image"
+            type="image/webp"
+          />
+          <link
+            rel="preload"
             href="/apocrifo.webp"
             as="image"
             type="image/webp"
