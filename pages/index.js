@@ -25,6 +25,12 @@ export default function Home() {
             sizes="32x32"
             href="/augusto_baschera_1.jpg"
           />
+          <link
+            rel="preload"
+            href="/apocrifo.webp"
+            as="image"
+            type="image/webp"
+          />
         </Head>
         <NavBar />
       </div>
