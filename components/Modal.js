@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Modal, Button } from "react-bootstrap";
-import Image from "react-bootstrap/Image";
+import Image from "next/image"; // Importando o Image do Next.js
 
 function MyModal() {
   const [show, setShow] = useState(false);
@@ -11,7 +11,7 @@ function MyModal() {
   // Função para fechar o modal
   const handleClose = () => setShow(false);
 
-  // Mostrar o modal após 2 segundos
+  // Mostrar o modal após 3 segundos
   useEffect(() => {
     const timer = setTimeout(() => {
       handleShow();
@@ -28,13 +28,21 @@ function MyModal() {
           <Modal.Title>My New Album is Out NOW!</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Image src="apocrifo.webp" rounded className="img-fluid" />
+          {/* Usando o next/image */}
+          <Image
+            src="/apocrifo.webp"  // Caminho da imagem, certifique-se de que está na pasta public
+            alt="My New Album"
+            width={500}  // Largura da imagem (ajuste conforme necessário)
+            height={500} // Altura da imagem (ajuste conforme necessário)
+            layout="responsive" // Para garantir que a imagem tenha o tamanho correto
+            priority // Para carregar a imagem de forma prioritária, se necessário
+          />
         </Modal.Body>
         <Modal.Footer>
           <Button
             variant="dark"
             onClick={() => {
-              handleClose(); 
+              handleClose();
               window.open(
                 "https://open.spotify.com/intl-pt/album/7f6j7qX2niKWEy8Dj2j2KC?si=37YHa2QpQmmPQoGY0byINQ",
                 "_blank"
