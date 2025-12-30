@@ -1,7 +1,7 @@
 export default {
     main_tittle: 'Augusto Baschera',
     main_title_desc: 'Jazz Guitarist',
-    about: 'Augusto Baschera is a relevant musician of the new generation of Brazilian Music, who proposes a new plot between the instrument and the composition.',
+    about: 'Augusto Baschera is a relevant musician of the new generation of Brazilian music, offering a fresh dialogue between the instrument and composition',
     about_biografy_1: "Augusto Baschera, born in Ibiaçá-RS, in the south of Brazil, began his musical journey remarkably at the age of 4, immersed in a family that breathes music. This early influence played a fundamental role in his artistic development. Augusto's path is an inspiring journey of dedication, intensive practice, and a passion for music, with a commitment to convey emotion through his performances.",
     about_biografy_2: "At the age of 14, still young, he internationalized his music, taking it to countries such as Argentina, Uruguay, Paraguay, and Mexico, where he participated in folk festivals in Latin America. In 2009, at just 17 years old, Augusto was awarded in various competitions and festivals as a composer, instrumentalist, and arranger, including the Festival do Passo, Seara da Canção, Cante uma Canção em Vacaria, and Canto de Luz.",
     about_biografy_3: "In his academic journey, Augusto Baschera obtained a Bachelor's degree in classical guitar, completing it with the highest distinction. Furthermore, he earned a Master's degree in Performance from the Escola Superior de Música in Lisbon, Portugal. His musical excellence led him to be a guest soloist with the 'Orquestra Sinfônica ESML' in Lisbon in the year 2016.",
@@ -30,7 +30,7 @@ export default {
     project_five_tittle: 'Travessia',
     project_five_description: '"Travessia" is a creative partnership between Brazilian guitarist Augusto Baschera (Rio Grande do Sul) and Azorean pianist João Bernardo (São Miguel). This project aims to study, recreate, and perform the musical folklore originating from the Azores, also present in the southern region of Brazil. It is sustained by the reworking and adaptation of this music into instrumental music, with a focus on improvised music and jazz.',
     contact_phone : 'Phone',
-    contact_email : "contact@augustobaschera.com",
+    contact_email : "bascheraaugusto@gmail.com",
     contact_number : "+351918307750",
     cannali_guitar1: "Augusto Baschera uses ",
     augusto_and_paulo: "Augusto Baschera (acoustic guitar/electric guitar) and Paulo Bernardino (clarinet/bass clarinet) bring the vastness of Brazilian daily life through their instruments, sounding like a breath of life that travels through different places and embraces the nuances that portray, in sound, the spirit of such a diverse country.",

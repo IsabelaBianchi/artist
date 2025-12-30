@@ -18,16 +18,16 @@ export default function Home() {
         <Head>
           <title>{t.main_tittle}</title>
           <meta name="description" content="Jazz Guitarist Augusto Baschera" />
-          <meta property="og:image" content="/augusto_baschera_1.jpg" />
+          <meta property="og:image" content="/augusto_baschera_04.jpeg" />
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/augusto_baschera_1.jpg"
+            href="/augusto_baschera_04.jpeg"
           />
           <link
             rel="preload"
-            href="/augusto-baschera-1.webp"
+            href="/augusto_baschera_04.webp"
             as="image"
             type="image/webp"
           />
