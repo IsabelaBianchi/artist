@@ -1,33 +1,33 @@
-import { useEffect } from 'react'
-import { Navbar, Nav, Container } from 'react-bootstrap'
-import en from '../locales/en'
-import pt from '../locales/pt'
-import { useRouter } from 'next/router'
-import LinkNext from 'next/link'
+import { useEffect } from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
+import en from "../locales/en";
+import pt from "../locales/pt";
+import { useRouter } from "next/router";
+import LinkNext from "next/link";
 
 export default function NavBar() {
   const router = useRouter();
   const locale = router.locale;
-  const t = (locale === 'pt') ? pt : en;
+  const t = locale === "pt" ? pt : en;
 
   useEffect(() => {
     const navbarShrink = () => {
-      const navbarCollapsible = document.querySelector('#mainNav');
+      const navbarCollapsible = document.querySelector("#mainNav");
       if (!navbarCollapsible) return;
 
       if (window.scrollY === 0) {
-        navbarCollapsible.classList.remove('navbar-shrink');
+        navbarCollapsible.classList.remove("navbar-shrink");
       } else {
-        navbarCollapsible.classList.add('navbar-shrink');
+        navbarCollapsible.classList.add("navbar-shrink");
       }
     };
 
     navbarShrink();
 
-    document.addEventListener('scroll', navbarShrink);
+    document.addEventListener("scroll", navbarShrink);
 
     return () => {
-      document.removeEventListener('scroll', navbarShrink);
+      document.removeEventListener("scroll", navbarShrink);
     };
   }, []);
 
@@ -46,15 +46,19 @@ export default function NavBar() {
           <Navbar.Collapse id="navbarResponsive">
             <Nav className="ms-auto">
               <LinkNext href="/bio" locale={locale} passHref>
-                <Nav.Link>{t.menu_biography}</Nav.Link>
+                <Nav.Link style={{ fontSize: "1.2rem"}}>{t.menu_biography}</Nav.Link>
+              </LinkNext>
+
+              <LinkNext href="/discografy" locale={locale} passHref>
+                <Nav.Link style={{ fontSize: "1.2rem"}}>{t.discography}</Nav.Link>
               </LinkNext>
 
               <LinkNext href="/all_projects" locale={locale} passHref>
-                <Nav.Link>{t.all_projects}</Nav.Link>
+                <Nav.Link style={{ fontSize: "1.2rem"}}>{t.all_projects}</Nav.Link>
               </LinkNext>
 
               <LinkNext href="/#signup" locale={locale} passHref>
-                <Nav.Link>{t.menu_contact}</Nav.Link>
+                <Nav.Link style={{ fontSize: "1.2rem"}}>{t.menu_contact}</Nav.Link>
               </LinkNext>
             </Nav>
           </Navbar.Collapse>

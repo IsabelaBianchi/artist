@@ -1,7 +1,7 @@
 export default {
     main_tittle: 'Augusto Baschera',
     main_title_desc: 'Jazz Guitarist',
-    about: 'Augusto Baschera is a relevant musician of the new generation of Brazilian music, offering a fresh dialogue between the instrument and composition',
+    about: 'Augusto Baschera (1991) is a guitarist and composer born in southern Brazil, where his musical journey began at a very early age within a family deeply connected to music. From the age of four, music became both language and discipline, shaping an artistic path guided by dedication, expressive depth, and a strong sense of commitment. Early exposure to the stage through Latin American festivals broadened his artistic vision, allowing his identity to evolve beyond borders while remaining firmly rooted in his cultural origins. Augusto holds a Master’s degree in Performance (Guitar) from the Escola Superior de Música de Lisboa. His work as a composer and instrumentalist has materialized in four albums released under his own name, widely recognized by the international contemporary and improvised music press. His artistic output establishes a continuous dialogue between tradition and modernity',
     about_biografy_1: "Augusto Baschera, born in Ibiaçá-RS, in the south of Brazil, began his musical journey remarkably at the age of 4, immersed in a family that breathes music. This early influence played a fundamental role in his artistic development. Augusto's path is an inspiring journey of dedication, intensive practice, and a passion for music, with a commitment to convey emotion through his performances.",
     about_biografy_2: "At the age of 14, still young, he internationalized his music, taking it to countries such as Argentina, Uruguay, Paraguay, and Mexico, where he participated in folk festivals in Latin America. In 2009, at just 17 years old, Augusto was awarded in various competitions and festivals as a composer, instrumentalist, and arranger, including the Festival do Passo, Seara da Canção, Cante uma Canção em Vacaria, and Canto de Luz.",
     about_biografy_3: "In his academic journey, Augusto Baschera obtained a Bachelor's degree in classical guitar, completing it with the highest distinction. Furthermore, he earned a Master's degree in Performance from the Escola Superior de Música in Lisbon, Portugal. His musical excellence led him to be a guest soloist with the 'Orquestra Sinfônica ESML' in Lisbon in the year 2016.",
@@ -9,7 +9,8 @@ export default {
     about_biografy_5: "Augusto Baschera is a member of 'MEDINEA' (MEDiterranean INcubator of Emerging Artists), under the direction of the 'Festival d'Aix-en-Provence' in France, where he participates in artistic residencies and tours across the European continent. Additionally, he had the honor of composing the soundtrack for the film 'MARIA,' which received the award for the 'best Brazilian short film' at the 'Independent Film Festival.'",
     about_biografy_6: "Another notable aspect of his work is the development of the distance music teaching application and tool called 'Nosso Folclore App,' which was awarded in the 'Edital Criação e Formação Diversidade das Culturas' (Cultural Diversity Creation and Training Announcement).",
     about_biografy_7: "Augusto Baschera's music has already resonated in countries such as Argentina, Brazil, Canada, Spain, France, England, Italy, and Portugal. He has had the opportunity to perform in the most prestigious concert halls in cities like Buenos Aires, Montevideo, Zacatecas, Lisbon, Madrid, Barcelona, Salamanca, Sardinia, Paris, and London, thus leaving his mark on the music scene.",
-    all_projects: 'Albums & Projects',
+    all_projects: 'Projects',
+    discography: 'Discopraphy',
     menu_about: 'About',
     menu_projects : 'Projects',
     menu_contact: 'Contact',
@@ -37,5 +38,4 @@ export default {
     baschera_and_bernardo_1: "Augusto Baschera is a relevant musician of the new generation of Brazilian music, who proposes a new plot between the instrument and composition.",
     baschera_and_bernardo_2: "João Bernardo is a talented pianist from São Miguel, Azores. The duo met in Lisbon at the 'Escola Superior de Música de Lisboa'.",
     baschera_and_bernardo_3: "Together, they have two albums where they combine their essence, emphasizing their traditions and influences while reflecting the universality of their music. The duo brings to the stage affinity, fluidity, complicity, and energy.",
-    discography: "Albums",
 }

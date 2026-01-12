@@ -11560,23 +11560,40 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
+  height: 70vh; 
 }
 .z-20 {
   position: relative;
   z-index: 20;
 } 
+.z-30 {
+  position: relative;
+  z-index: 30;
+} 
+
+.about-layer {
+  z-index: 30;
+  top: 0;
+  height: 70vh; 
+}
+
+.discography-layer {
+  z-index: 30;
+  top: 0;
+  height: 70vh; 
+}
 
 .contact-section{
   position: relative;
   z-index: 20;  
 }
 
-.masthead h1, .masthead .h1 {
+.masthead h2, .masthead .h2 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+ 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -11592,7 +11609,7 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0);
     font-size: 3rem;
   }
   #mainNav .nav-link {
@@ -11610,14 +11627,14 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);;
   }
   
   #mainNav.navbar-shrink .navbar-brand {
-    color: #000;
+    color: #fff;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000;
+    color: #fefefe;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -11637,19 +11654,30 @@ body {
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
 }
 
-.masthead {
+.masthead-old {
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 1rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%), url("/augusto-baschera-1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+}
+
+.masthead {
+  width: 100%;
+  height: auto;
+  padding: 1rem 0;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11694,7 +11722,7 @@ body {
  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 }
-.masthead h1, .masthead .h1 {
+.masthead h2, .masthead .h2 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 2.5rem;
   line-height: 2.5rem;
@@ -11712,6 +11740,7 @@ body {
   .masthead h1, .masthead .h1 {
     font-size: 4rem;
     line-height: 4rem;
+    min-height: 3rem;
   }
   .mt-8 {
     margin-top: 3rem !important;
@@ -11738,8 +11767,32 @@ body {
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 
-.about-section {
+.about-section-old {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.9) 75%, #000 100%), url("/augusto_baschera_08.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#about {
+  height: 100vh; /* Ocupa toda a altura da viewport */
+  display: flex; /* Garante que o conteúdo interno seja flexível */
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  justify-content: center; /* Centraliza o conteúdo verticalmente */
+  padding: 0; /* Remove padding extra */
+  margin: 0; /* Remove margem extra */
+}
+
+#about .about-image {
+  height: 90vh; /* A imagem ocupa 90% da altura da tela */
+  width: auto; /* Mantém a proporção da imagem */
+  margin: 0 1rem; /* Adiciona uma borda à esquerda e à direita */
+  object-fit: cover; /* Garante que a imagem cubra o espaço disponível */
+  border-radius: 8px; /* Adiciona bordas arredondadas (opcional) */
+}
+
+.about-section {
+  background-color: #611F23 !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -11903,4 +11956,77 @@ padding: 5rem;
 
 .footer {
   padding: 5rem 0;
+}
+.masthead {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.masthead-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Garante que o vídeo cubra toda a seção */
+  z-index: -1; 
+}
+
+.typing-container {
+  position: absolute;
+  top: 50%; /* Centraliza verticalmente */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%);
+  z-index: 20; /* Garante que o texto fique acima do vídeo */
+  text-align: center;
+}
+
+.typing-text {
+  font-size: 3rem; /* Ajuste o tamanho do texto conforme necessário */
+  font-weight: bold;
+  color: white !important;
+  font-family: "Courier New", Courier, monospace; /* Estilo de fonte para parecer digitação */
+  overflow: hidden; /* Garante que o texto seja cortado durante a animação */
+  white-space: nowrap; /* Impede quebra de linha */
+  border-right: 2px solid #fefefe; /* Cria o efeito de cursor */
+  animation: typing 4s steps(20, end), blink 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: white;
+  }
+}
+
+/* MOBILE FIRST */
+.masthead-video.desktop {
+  display: none;
+}
+
+.masthead-video.mobile {
+  display: block;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .masthead-video.desktop {
+    display: block;
+  }
+
+  .masthead-video.mobile {
+    display: none;
+  }
 }

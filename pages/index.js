@@ -2,11 +2,14 @@ import Head from "next/head";
 import LinkNext from "next/link";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import AboutSection from "../components/AboutSection";
+("../components/AboutSection");
+import DiscographySection from "../components/DiscographySection";
 import en from "../locales/en";
 import pt from "../locales/pt";
 import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
-import MyModal from "../components/Modal";
+
 export default function Home() {
   const router = useRouter();
   const locale = router.locale;
@@ -18,44 +21,42 @@ export default function Home() {
         <Head>
           <title>{t.main_tittle}</title>
           <meta name="description" content="Jazz Guitarist Augusto Baschera" />
-          <meta property="og:image" content="/augusto_baschera_04.jpeg" />
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
             href="/augusto_baschera_04.jpeg"
           />
-          <link
-            rel="preload"
-            href="/augusto_baschera_04.webp"
-            as="image"
-            type="image/webp"
-          />
-          <link
-            rel="preload"
-            href="/apocrifo.webp"
-            as="image"
-            type="image/webp"
-          />
         </Head>
         <NavBar />
       </div>
-      <MyModal />
-      <section className="masthead" />
+      <section className="masthead position-sticky">
+        <div className="typing-container">
+          <h1 className="typing-text">Augusto Baschera</h1>
+        </div>
+        <video
+          className="masthead-video desktop"
+          autoPlay
+          loop
+          muted
+          playsInline
+          src="/baschera_video.MOV"
+        />
+        <video
+          className="masthead-video mobile"
+          autoPlay
+          loop
+          muted
+          playsInline
+          src="/baschera_video.mp4"
+        />
+      </section>
 
-      <section className="z-20 about-section text-center bg-light" id="about">
-        <div className="px-4 px-lg-5 pt-lg-6 d-flex h-100 align-items-center justify-content-center justify-content-center ">
-          <div className="col-6 mt-8">
-            <p className="text-white-50 mt-5">{t.about}</p>
-          </div>
-        </div>
-        <div>
-          <LinkNext href="/bio" locale={locale}>
-            <a className="btn mb-6 btn-outline-light btn-sm ">
-              {t.menu_biography}
-            </a>
-          </LinkNext>
-        </div>
+      <section className="z-20" id="aboutd">
+        <AboutSection />
+      </section>
+      <section className="z-30" id="discography">
+        <DiscographySection />
       </section>
 
       <section className="z-20 projects-home-section bg-dark" id="projects">
