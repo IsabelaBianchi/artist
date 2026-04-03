@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/router";
 import en from "../locales/en";
@@ -47,8 +47,6 @@ export default function AboutSection() {
           {/* TEXTO */}
           <Col lg={6}>
             <div className="album-content">
-              
-
               <p>{t.about}</p>
             </div>
           </Col>
@@ -59,7 +57,7 @@ export default function AboutSection() {
         /* SECTION BASE */
         .latest-album {
           padding: 6rem 0;
-          background: #100;
+          background: transparent;
           overflow: hidden;
         }
 
@@ -95,7 +93,7 @@ export default function AboutSection() {
         }
 
         .album-content p {
-          font-size: 1rem;
+          font-size: 1.1rem;
           line-height: 1.7;
           max-width: 520px;
           margin-bottom: 2rem;

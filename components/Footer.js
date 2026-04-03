@@ -15,7 +15,7 @@ export default function Footer() {
   const locale = router.locale;
   const t = locale === "pt" ? pt : en;
   return (
-    <section className="contact-section bg-black" id="signup">
+    <section className="contact-section" id="signup">
       <div className="container px-4 px-lg-5">
         <div className="text-center text-white">{t.contact_email}</div>
         <div className="row gx-4 gx-lg-5">
@@ -24,25 +24,25 @@ export default function Footer() {
               className="mx-2"
               href="https://www.youtube.com/channel/UCO-RAD7pnuGJDXODein96cQ"
             >
-              <FontAwesomeIcon icon={faYoutube} />
+              <FontAwesomeIcon icon={faYoutube} size="2x" />
             </a>
             <a
               className="mx-2"
               href="https://open.spotify.com/artist/0TtNm2GzxTYki2zQTLOiVE"
             >
-              <FontAwesomeIcon icon={faSpotify} />
+              <FontAwesomeIcon icon={faSpotify} size="2x" />
             </a>
             <a
               className="mx-2"
               href="https://www.instagram.com/augustobaschera/"
             >
-              <FontAwesomeIcon icon={faInstagram} />
+              <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
             <a
               className="mx-2"
               href="https://www.facebook.com/augusto.baschera"
             >
-              <FontAwesomeIcon icon={faFacebook} />
+              <FontAwesomeIcon icon={faFacebook} size="2x" />
             </a>
           </div>
           <div className="social d-flex justify-content-center guitar">
@@ -56,7 +56,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <footer className="footer bg-black small text-center text-white-50">
+      <footer className="footer small text-center text-white-50">
         <div className="container px-4 px-lg-5"></div>
       </footer>
     </section>
