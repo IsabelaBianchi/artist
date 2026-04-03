@@ -270,11 +270,11 @@ export default function NavBar() {
           }
 
           .nav-socials {
-            gap: 0.75rem;
+            gap: 1rem;
           }
 
           .social-icon {
-            font-size: 0.9rem;
+            font-size: 1.5rem;
           }
         }
       `}</style>
