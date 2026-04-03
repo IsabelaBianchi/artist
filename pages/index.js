@@ -24,7 +24,7 @@ export default function Home() {
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/augusto_baschera_04.jpeg"
+          href="/augusto_baschera_portugal.jpg"
         />
       </Head>
       <NavBar />

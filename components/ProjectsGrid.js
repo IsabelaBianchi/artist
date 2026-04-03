@@ -17,13 +17,6 @@ const projects = [
     youtube: "https://www.youtube.com/watch?v=kFAADs6kYSc",
   },
   {
-    key: "folclore",
-    cover: "/folclore.jpg",
-    titleKey: "project_folclore_title",
-    descKey: "project_folclore_description",
-    instagram: "https://www.instagram.com/p/DR7J7qSjq7Q/",
-  },
-  {
     key: "travessia",
     cover: "/travessia.webp",
     titleKey: "project_five_tittle",
@@ -45,6 +38,13 @@ const projects = [
     descKey: "project_three_description",
     spotify: null,
     youtube: "https://www.youtube.com/watch?v=0GCyS5c-DO4",
+  },
+  {
+    key: "folclore",
+    cover: "/folclore.jpg",
+    titleKey: "project_folclore_title",
+    descKey: "project_folclore_description",
+    instagram: "https://www.instagram.com/p/DR7J7qSjq7Q/",
   },
   {
     key: "concierto-aranjuez",
