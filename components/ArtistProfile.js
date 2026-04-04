@@ -50,7 +50,7 @@ export default function ArtistProfile() {
           <div className="ap-image-frame">
             <video
               className="ap-img"
-              src="/augusto_baschera_1.MOV"
+              src="/augusto_baschera_about2.MOV"
               autoPlay
               loop
               muted
@@ -178,6 +178,8 @@ export default function ArtistProfile() {
           height: 70vh;
           object-fit: cover;
           object-position: center top;
+          transform: scale(1.09);
+          transform-origin: center center;
         }
 
         .ap-img-overlay {
