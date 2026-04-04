@@ -9,6 +9,7 @@ import pt from "../locales/pt";
 import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import ProjectsGrid from "../components/ProjectsGrid";
+import PressSection from "../components/PressSection";
 
 export default function Home() {
   const router = useRouter();
@@ -86,6 +87,10 @@ export default function Home() {
 
         <section className="z-20 projects-home-section" id="projects">
           <ProjectsGrid />
+        </section>
+
+        <section className="z-20 press-home-section" id="press">
+          <PressSection />
         </section>
 
         <section className="z-20 contact-section" id="signup">
