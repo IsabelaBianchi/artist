@@ -50,7 +50,7 @@ export default function Bio() {
 
       <style jsx>{`
         .bio-page {
-          background: url('/augusto_baschera_04.jpeg') center top / cover no-repeat fixed;
+          background: url('/augusto_baschera_festival_1.jpg') center top / cover no-repeat fixed;
           min-height: 100vh;
         }
 
@@ -98,7 +98,13 @@ export default function Bio() {
 
         .bio-content {
           max-width: 780px;
-          margin: 0 auto;
+          margin: 0 0 0 14vw;
+          background: rgba(10, 10, 10, 0.45);
+          backdrop-filter: blur(12px);
+          -webkit-backdrop-filter: blur(12px);
+          border-radius: 10px;
+          padding: 3rem 3.5rem;
+          border: 1px solid rgba(255, 255, 255, 0.07);
         }
 
         .bio-paragraph {
@@ -108,6 +114,10 @@ export default function Bio() {
           margin-bottom: 1.8rem;
         }
 
+        .bio-paragraph:last-child {
+          margin-bottom: 0;
+        }
+
         @media (max-width: 640px) {
           .bio-hero {
             height: 45vh;
@@ -115,6 +125,10 @@ export default function Bio() {
 
           .bio-body {
             padding: 3rem 1.5rem;
+          }
+
+          .bio-content {
+            padding: 2rem 1.5rem;
           }
 
           .bio-paragraph {
