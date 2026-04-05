@@ -44,7 +44,7 @@ const projects = [
     cover: "/folclore.jpg",
     titleKey: "project_folclore_title",
     descKey: "project_folclore_description",
-    instagram: "https://www.instagram.com/p/DR7J7qSjq7Q/",
+    youtube: "https://www.youtube.com/watch?v=ZmOPd_NbbC8",
   },
   {
     key: "concierto-aranjuez",
