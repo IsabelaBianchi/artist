@@ -93,6 +93,12 @@ export default function PressSection() {
           border-bottom-left-radius: 0;
           border-bottom-right-radius: 0;
         }
+
+        @media (max-width: 860px) {
+          .press-section {
+            padding: 3rem 0 4rem;
+          }
+        }
       `}</style>
     </section>
   );

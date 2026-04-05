@@ -411,6 +411,12 @@ export default function DiscographySection() {
             justify-content: center;
           }
         }
+
+        @media (max-width: 860px) {
+          .discography-section {
+            padding: 3rem 0;
+          }
+        }
       `}</style>
     </section>
   );

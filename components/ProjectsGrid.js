@@ -312,6 +312,12 @@ export default function ProjectsGrid() {
           color: #ffffff;
           transform: scale(1.2);
         }
+
+        @media (max-width: 860px) {
+          .projects-grid-section {
+            padding: 3rem 0;
+          }
+        }
       `}</style>
     </section>
   );
