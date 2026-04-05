@@ -5,10 +5,10 @@ import {
   faSpotify,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import en from "../locales/en";
 import pt from "../locales/pt";
 import { useRouter } from "next/router";
-import { Figure } from "react-bootstrap";
 
 export default function Footer() {
   const router = useRouter();
@@ -17,41 +17,43 @@ export default function Footer() {
   return (
     <section className="contact-section" id="signup">
       <div className="container px-4 px-lg-5">
-        <div className="text-center text-white">{t.contact_email}</div>
         <div className="row gx-4 gx-lg-5">
           <div className="social d-flex justify-content-center">
             <a
               className="mx-2"
               href="https://www.youtube.com/channel/UCO-RAD7pnuGJDXODein96cQ"
             >
-              <FontAwesomeIcon icon={faYoutube} size="2x" />
+              <FontAwesomeIcon icon={faYoutube} size="3x" />
             </a>
             <a
               className="mx-2"
               href="https://open.spotify.com/artist/0TtNm2GzxTYki2zQTLOiVE"
             >
-              <FontAwesomeIcon icon={faSpotify} size="2x" />
+              <FontAwesomeIcon icon={faSpotify} size="3x" />
             </a>
             <a
               className="mx-2"
               href="https://www.instagram.com/augustobaschera/"
             >
-              <FontAwesomeIcon icon={faInstagram} size="2x" />
+              <FontAwesomeIcon icon={faInstagram} size="3x" />
             </a>
             <a
               className="mx-2"
               href="https://www.facebook.com/augusto.baschera"
             >
-              <FontAwesomeIcon icon={faFacebook} size="2x" />
+              <FontAwesomeIcon icon={faFacebook} size="3x" />
+            </a>
+            <a
+              className="mx-2 footer-email-link"
+              href={`mailto:${t.contact_email}`}
+            >
+              <FontAwesomeIcon icon={faEnvelope} size="3x" />
             </a>
           </div>
-          <div className="social d-flex justify-content-center guitar">
-            {t.cannali_guitar1}{" "}
+          <div className="social d-flex justify-content-center align-items-center guitar">
+            <p style={{ marginLeft: "-1rem" }}><span className="cannali-text">{t.cannali_guitar1}</span>{" "}</p>
             <a href="https://www.canalliguitars.com/#sobre">
-              <Figure>
-                {" "}
-                <Figure.Image alt="" src="/logo4.png"></Figure.Image>
-              </Figure>
+              <img alt="Canalli Guitars" src="/logo4.png" className="cannali-logo" />
             </a>
           </div>
         </div>

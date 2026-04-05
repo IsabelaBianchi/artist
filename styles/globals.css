@@ -11908,9 +11908,9 @@ body {
 }
 .contact-section .social a {
   text-align: center;
-  height: 3rem;
-  width: 3rem;
-  line-height: 3rem;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
   color: rgba(255, 255, 250, 0.8);
 }
 .video-container {
@@ -11938,15 +11938,36 @@ padding: 5rem;
 }
 
 
-.guitar{
+.guitar {
   color: white !important;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.guitar a {
-  text-align: center;
-  height: 3rem;
-  width: 3rem;
-  line-height: 1rem !important;
+.cannali-logo {
+  width: 105px;
+  height: auto;
+  display: block;
+}
+
+.cannali-text {
+  line-height: 1;
+}
+
+.footer-email {
+  margin-bottom: 1rem;
+}
+
+.footer-email-link {
+  color: rgba(255, 255, 250, 0.8);
+  transition: color 0.2s ease;
+}
+
+.footer-email-link:hover {
+  color: #fff;
 }
 
 .contact-section .social a:hover {

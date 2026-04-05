@@ -171,7 +171,7 @@ export default function NavBar() {
 
         .social-icon {
           color: rgba(255, 255, 255, 0.65);
-          font-size: 1rem;
+          font-size: 1.6rem;
           transition: color 0.2s ease, transform 0.2s ease;
           display: flex;
           align-items: center;
@@ -274,7 +274,7 @@ export default function NavBar() {
           }
 
           .social-icon {
-            font-size: 1.5rem;
+            font-size: 1.6rem;
           }
         }
       `}</style>
