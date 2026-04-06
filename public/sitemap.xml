@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://augustobaschera.com</loc>
-    <lastmod>2022-05-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://augustobaschera.com/en"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://augustobaschera.com/pt"/>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://augustobaschera.com/bio</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://augustobaschera.com/en/bio"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://augustobaschera.com/pt/bio"/>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://augustobaschera.com/all_projects</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://augustobaschera.com/en/all_projects"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://augustobaschera.com/pt/all_projects"/>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

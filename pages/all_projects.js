@@ -20,14 +20,20 @@ export default function AllProjects() {
     <>
       <section className="projects-section bg-black">
         <Head>
-          <title>{main_tittle}</title>
-          <meta name="description" content="Jazz Guitarist Augusto Baschera" />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="/augusto_baschera_1.jpg"
-          />
+          <title>Augusto Baschera | Projects — Jazz Guitar & Collaborations</title>
+          <meta name="description" content="Explore all musical projects by Augusto Baschera — jazz guitarist and composer. Albums, collaborations and live performances." />
+          <meta name="keywords" content="Augusto Baschera projects, jazz guitar albums, Travessia, Brazilian jazz projects, jazz collaborations Portugal" />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href="https://augustobaschera.com/all_projects" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://augustobaschera.com/all_projects" />
+          <meta property="og:title" content="Augusto Baschera | Projects" />
+          <meta property="og:description" content="Explore all musical projects by Augusto Baschera — jazz guitarist and composer." />
+          <meta property="og:image" content="https://augustobaschera.com/augusto_baschera_portugal.jpg" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Augusto Baschera | Projects" />
+          <meta name="twitter:image" content="https://augustobaschera.com/augusto_baschera_portugal.jpg" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/augusto_baschera_portugal.jpg" />
         </Head>
         <NavBar />
 

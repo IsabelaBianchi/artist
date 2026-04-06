@@ -1,31 +1,67 @@
 import Head from "next/head";
-import LinkNext from "next/link";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import ArtistProfile from "../components/ArtistProfile.js";
 import DiscographySection from "../components/DiscographySection";
-import en from "../locales/en";
-import pt from "../locales/pt";
-import { useRouter } from "next/router";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import ProjectsGrid from "../components/ProjectsGrid";
 import PressSection from "../components/PressSection";
 
 export default function Home() {
-  const router = useRouter();
-  const locale = router.locale;
-  const t = locale === "pt" ? pt : en;
-
   return (
     <>
       <Head>
-        <title>{t.main_tittle}</title>
-        <meta name="description" content="Jazz Guitarist Augusto Baschera" />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/augusto_baschera_portugal.jpg"
+        <title>Augusto Baschera | Jazz Guitarist & Composer</title>
+        <meta name="description" content="Augusto Baschera is a Brazilian jazz guitarist and composer based in Portugal. Known for his innovative language and expressive depth, Augusto blends Brazilian music with contemporary jazz." />
+        <meta name="keywords" content="Augusto Baschera, jazz guitarist, Brazilian jazz, jazz guitar, guitarist Portugal, música contemporânea, violonista jazz, compositor jazz" />
+        <meta name="author" content="Augusto Baschera" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://augustobaschera.com" />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://augustobaschera.com" />
+        <meta property="og:title" content="Augusto Baschera | Jazz Guitarist & Composer" />
+        <meta property="og:description" content="Brazilian jazz guitarist and composer based in Portugal. Explore discography, projects and press." />
+        <meta property="og:image" content="https://augustobaschera.com/augusto_baschera_portugal.jpg" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale:alternate" content="pt_PT" />
+        <meta property="og:site_name" content="Augusto Baschera" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Augusto Baschera | Jazz Guitarist & Composer" />
+        <meta name="twitter:description" content="Brazilian jazz guitarist and composer based in Portugal." />
+        <meta name="twitter:image" content="https://augustobaschera.com/augusto_baschera_portugal.jpg" />
+
+        {/* Favicon */}
+        <link rel="icon" type="image/png" sizes="32x32" href="/augusto_baschera_portugal.jpg" />
+
+        {/* JSON-LD Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "MusicGroup",
+            "name": "Augusto Baschera",
+            "url": "https://augustobaschera.com",
+            "image": "https://augustobaschera.com/augusto_baschera_portugal.jpg",
+            "description": "Brazilian jazz guitarist and composer based in Portugal.",
+            "genre": ["Jazz", "Brazilian Music", "Contemporary Jazz"],
+            "sameAs": [
+              "https://www.instagram.com/augustobaschera/",
+              "https://open.spotify.com/artist/0TtNm2GzxTYki2zQTLOiVE",
+              "https://www.youtube.com/channel/UCO-RAD7pnuGJDXODein96cQ",
+              "https://www.facebook.com/augusto.baschera"
+            ],
+            "member": {
+              "@type": "Person",
+              "name": "Augusto Baschera",
+              "jobTitle": "Jazz Guitarist & Composer",
+              "nationality": "Brazilian",
+              "instrument": "Guitar"
+            }
+          })}}
         />
       </Head>
       <NavBar />

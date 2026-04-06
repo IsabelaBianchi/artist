@@ -23,9 +23,20 @@ export default function Bio() {
   return (
     <>
       <Head>
-        <title>Augusto Baschera — {t.menu_biography}</title>
-        <meta name="description" content="Biography of Augusto Baschera" />
-       
+        <title>Augusto Baschera | Biography — Jazz Guitarist & Composer</title>
+        <meta name="description" content="Biography of Augusto Baschera, Brazilian jazz guitarist and composer based in Portugal. Discover his musical journey, influences and artistic vision." />
+        <meta name="keywords" content="Augusto Baschera biography, Brazilian jazz guitarist, jazz guitar Portugal, Brazilian musician, jazz composer" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://augustobaschera.com/bio" />
+        <meta property="og:type" content="profile" />
+        <meta property="og:url" content="https://augustobaschera.com/bio" />
+        <meta property="og:title" content="Augusto Baschera | Biography" />
+        <meta property="og:description" content="Brazilian jazz guitarist and composer based in Portugal. Discover his musical journey and artistic vision." />
+        <meta property="og:image" content="https://augustobaschera.com/augusto_baschera_festival_1.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Augusto Baschera | Biography" />
+        <meta name="twitter:image" content="https://augustobaschera.com/augusto_baschera_festival_1.jpg" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/augusto_baschera_portugal.jpg" />
       </Head>
 
       <NavBar />
