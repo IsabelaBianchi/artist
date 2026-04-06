@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Augusto Baschera | Jazz Guitarist & Composer</title>
+        <title>Augusto Baschera | Music</title>
         <meta name="description" content="Augusto Baschera is a Brazilian jazz guitarist and composer based in Portugal. Known for his innovative language and expressive depth, Augusto blends Brazilian music with contemporary jazz." />
         <meta name="keywords" content="Augusto Baschera, jazz guitarist, Brazilian jazz, jazz guitar, guitarist Portugal, música contemporânea, violonista jazz, compositor jazz" />
         <meta name="author" content="Augusto Baschera" />
