@@ -99,22 +99,6 @@ export default function PressSection() {
             padding: 3rem 0 4rem;
           }
 
-          .press-section :global(.container) {
-            padding-left: 0;
-            padding-right: 0;
-            max-width: 100%;
-          }
-
-          .section-title {
-            padding-left: 0.75rem;
-          }
-
-
-          .press-card {
-            border-radius: 0;
-            border-left: none;
-            border-right: none;
-          }
         }
       `}</style>
     </section>

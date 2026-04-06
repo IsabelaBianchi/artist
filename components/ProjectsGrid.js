@@ -318,22 +318,6 @@ export default function ProjectsGrid() {
             padding: 3rem 0;
           }
 
-          .projects-grid-section :global(.container) {
-            padding-left: 0;
-            padding-right: 0;
-            max-width: 100%;
-          }
-
-          .section-title {
-            padding-left: 0.75rem;
-          }
-
-
-          .project-card {
-            border-radius: 0;
-            border-left: none;
-            border-right: none;
-          }
         }
       `}</style>
     </section>
