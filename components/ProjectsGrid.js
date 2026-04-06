@@ -324,6 +324,10 @@ export default function ProjectsGrid() {
             max-width: 100%;
           }
 
+          .section-title {
+            padding-left: 0.75rem;
+          }
+
 
           .project-card {
             border-radius: 0;

@@ -105,6 +105,10 @@ export default function PressSection() {
             max-width: 100%;
           }
 
+          .section-title {
+            padding-left: 0.75rem;
+          }
+
 
           .press-card {
             border-radius: 0;
