@@ -416,6 +416,7 @@ export default function DiscographySection() {
           .discography-section {
             padding: 3rem 0;
           }
+
         }
       `}</style>
     </section>

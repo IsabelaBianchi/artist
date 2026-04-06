@@ -317,6 +317,19 @@ export default function ProjectsGrid() {
           .projects-grid-section {
             padding: 3rem 0;
           }
+
+          .projects-grid-section :global(.container) {
+            padding-left: 0;
+            padding-right: 0;
+            max-width: 100%;
+          }
+
+
+          .project-card {
+            border-radius: 0;
+            border-left: none;
+            border-right: none;
+          }
         }
       `}</style>
     </section>

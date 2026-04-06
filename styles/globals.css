@@ -11940,7 +11940,7 @@ padding: 5rem;
 
 .guitar {
   color: white !important;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11948,7 +11948,7 @@ padding: 5rem;
 }
 
 .cannali-logo {
-  width: 105px;
+  width: 90px;
   height: auto;
   display: block;
 }
